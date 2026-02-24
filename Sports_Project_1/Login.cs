@@ -77,9 +77,9 @@ namespace Sports_Project_1
                     return;
                 }
 
-                bool userExits = savedUsers.Any(u => u.Username.Equals(user, StringComparison.OrdinalIgnoreCase));
+                bool userExists = savedUsers.Any(u => u.Username.Equals(user, StringComparison.OrdinalIgnoreCase)); //checks if username is taken
 
-                if (userExits)
+                if (userExists)
                 {
                     MessageBox.Show("USERNAME IS TAKEN !!");
                     return;
@@ -98,7 +98,7 @@ namespace Sports_Project_1
                 }
                 User newUser = new User(newUserID, user, pass, firstName);
 
-                m.AddUser(filePath, newUser);
+                m.AddUser(filePath, newUser); //writes to UserLogins csv file in debug folder, original UserLogins file in project does not change.
 
                 MessageBox.Show("ACCOUNT CREATED !!");
                 lblFirstName.Visible = false;

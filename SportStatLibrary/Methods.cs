@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Microsoft.VisualBasic.FileIO; //added micorosoft visual basic reference for textfield parser
 
 namespace SportStatLibrary
@@ -51,7 +52,7 @@ namespace SportStatLibrary
         public void AddUser(string filePath, User newUser)
         {
             string row = $"{newUser.ID},{newUser.Username},{newUser.Password},{newUser.FirstName},{newUser.FavNFLTeamID},{newUser.FavNHLTeamID}";
-
+            
             File.AppendAllText(filePath, Environment.NewLine + row);
         }
 
