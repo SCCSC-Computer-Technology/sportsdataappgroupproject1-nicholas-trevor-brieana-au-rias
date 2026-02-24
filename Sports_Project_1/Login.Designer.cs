@@ -37,6 +37,7 @@
             this.butLogin = new System.Windows.Forms.Button();
             this.butCreateAcc = new System.Windows.Forms.Button();
             this.butExit = new System.Windows.Forms.Button();
+            this.cBoxSeePass = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // txtBoxUser
@@ -123,6 +124,17 @@
             this.butExit.UseVisualStyleBackColor = true;
             this.butExit.Click += new System.EventHandler(this.butExit_Click);
             // 
+            // cBoxSeePass
+            // 
+            this.cBoxSeePass.AutoSize = true;
+            this.cBoxSeePass.Location = new System.Drawing.Point(779, 275);
+            this.cBoxSeePass.Name = "cBoxSeePass";
+            this.cBoxSeePass.Size = new System.Drawing.Size(91, 17);
+            this.cBoxSeePass.TabIndex = 9;
+            this.cBoxSeePass.Text = "see password";
+            this.cBoxSeePass.UseVisualStyleBackColor = true;
+            this.cBoxSeePass.CheckedChanged += new System.EventHandler(this.cBoxSeePass_CheckedChanged);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,6 +142,7 @@
             this.BackgroundImage = global::Sports_Project_1.Properties.Resources.login_screen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1152, 644);
+            this.Controls.Add(this.cBoxSeePass);
             this.Controls.Add(this.butExit);
             this.Controls.Add(this.butCreateAcc);
             this.Controls.Add(this.butLogin);
@@ -158,5 +171,6 @@
         private System.Windows.Forms.Button butLogin;
         private System.Windows.Forms.Button butCreateAcc;
         private System.Windows.Forms.Button butExit;
+        private System.Windows.Forms.CheckBox cBoxSeePass;
     }
 }

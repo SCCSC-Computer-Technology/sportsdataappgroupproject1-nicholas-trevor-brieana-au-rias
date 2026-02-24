@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SportStatLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SportStatLibrary;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 namespace Sports_Project_1
 {
     public partial class Login : Form
@@ -108,6 +109,19 @@ namespace Sports_Project_1
                 menu.Show();
                 this.Hide();
 
+            }
+        }
+
+        private void cBoxSeePass_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cBoxSeePass.Checked)
+            {
+                txtBoxPass.PasswordChar = '\0';
+            }
+
+            if (!cBoxSeePass.Checked)
+            {
+                txtBoxPass.PasswordChar = '*';
             }
         }
     }
