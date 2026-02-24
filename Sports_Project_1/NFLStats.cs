@@ -23,5 +23,10 @@ namespace Sports_Project_1
         {
             
         }
+
+        private void butExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

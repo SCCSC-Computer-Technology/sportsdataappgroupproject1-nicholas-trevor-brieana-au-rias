@@ -35,8 +35,14 @@ namespace Sports_Project_1
 
         private void butNFL_Click(object sender, EventArgs e)
         {
-            NFLTeams teams = new NFLTeams();
-            teams.Show();
+            NFLTeams NFLteams = new NFLTeams();
+            NFLteams.Show();
+        }
+
+        private void butNHL_Click(object sender, EventArgs e)
+        {
+            Form1 NHLteams = new Form1();
+            NHLteams.Show();
         }
     }
 }

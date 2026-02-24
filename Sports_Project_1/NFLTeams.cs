@@ -29,5 +29,10 @@ namespace Sports_Project_1
             NFLStats statForm = new NFLStats(teamID, btn.BackgroundImage);
             statForm.Show();
         }
+
+        private void butExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

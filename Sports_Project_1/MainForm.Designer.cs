@@ -58,6 +58,7 @@
             this.butNHL.Size = new System.Drawing.Size(242, 290);
             this.butNHL.TabIndex = 2;
             this.butNHL.UseVisualStyleBackColor = true;
+            this.butNHL.Click += new System.EventHandler(this.butNHL_Click);
             // 
             // butLogout
             // 

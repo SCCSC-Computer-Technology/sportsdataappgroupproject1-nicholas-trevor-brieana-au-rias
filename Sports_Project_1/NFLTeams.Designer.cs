@@ -60,6 +60,7 @@
             this.butSteel = new System.Windows.Forms.Button();
             this.butEagles = new System.Windows.Forms.Button();
             this.butJets = new System.Windows.Forms.Button();
+            this.butExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // butCard
@@ -542,6 +543,16 @@
             this.butJets.UseVisualStyleBackColor = false;
             this.butJets.Click += new System.EventHandler(this.teamButton_Click);
             // 
+            // butExit
+            // 
+            this.butExit.Location = new System.Drawing.Point(89, 617);
+            this.butExit.Name = "butExit";
+            this.butExit.Size = new System.Drawing.Size(156, 48);
+            this.butExit.TabIndex = 32;
+            this.butExit.Text = "&Exit";
+            this.butExit.UseVisualStyleBackColor = true;
+            this.butExit.Click += new System.EventHandler(this.butExit_Click);
+            // 
             // NFLTeams
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -549,6 +560,7 @@
             this.BackgroundImage = global::Sports_Project_1.Properties.Resources.NFL_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1173, 677);
+            this.Controls.Add(this.butExit);
             this.Controls.Add(this.butWash);
             this.Controls.Add(this.butTitans);
             this.Controls.Add(this.butBucc);
@@ -622,5 +634,6 @@
         private System.Windows.Forms.Button butSteel;
         private System.Windows.Forms.Button butEagles;
         private System.Windows.Forms.Button butJets;
+        private System.Windows.Forms.Button butExit;
     }
 }
