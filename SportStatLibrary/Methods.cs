@@ -15,6 +15,8 @@ namespace SportStatLibrary
         {
             List<User> users = new List<User>();
             string[] columns = new string[6];
+
+            //this parses through csv file and puts each catagory in columns array then assigns those values to a user object then adds to users list
             using (TextFieldParser parser = new TextFieldParser(filePath))
             {
                 parser.TextFieldType = FieldType.Delimited;
@@ -49,7 +51,7 @@ namespace SportStatLibrary
             }
         }
 
-        public void AddUser(string filePath, User newUser)
+        public void AddUser(string filePath, User newUser) //converts user object to string and adds to debug csv file
         {
             string row = $"{newUser.ID},{newUser.Username},{newUser.Password},{newUser.FirstName},{newUser.FavNFLTeamID},{newUser.FavNHLTeamID}";
             
