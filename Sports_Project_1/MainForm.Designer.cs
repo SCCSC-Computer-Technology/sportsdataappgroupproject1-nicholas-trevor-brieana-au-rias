@@ -45,6 +45,7 @@
             this.butNFL.Size = new System.Drawing.Size(242, 290);
             this.butNFL.TabIndex = 1;
             this.butNFL.UseVisualStyleBackColor = true;
+            this.butNFL.Click += new System.EventHandler(this.butNFL_Click);
             // 
             // butNHL
             // 

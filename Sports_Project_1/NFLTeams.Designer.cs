@@ -75,6 +75,7 @@
             this.butCard.TabIndex = 0;
             this.butCard.Tag = "1";
             this.butCard.UseVisualStyleBackColor = false;
+            this.butCard.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butFalc
             // 
@@ -89,6 +90,7 @@
             this.butFalc.TabIndex = 1;
             this.butFalc.Tag = "2";
             this.butFalc.UseVisualStyleBackColor = false;
+            this.butFalc.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butRavens
             // 
@@ -103,6 +105,7 @@
             this.butRavens.TabIndex = 2;
             this.butRavens.Tag = "3";
             this.butRavens.UseVisualStyleBackColor = false;
+            this.butRavens.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butBills
             // 
@@ -117,6 +120,7 @@
             this.butBills.TabIndex = 3;
             this.butBills.Tag = "4";
             this.butBills.UseVisualStyleBackColor = false;
+            this.butBills.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butBrowns
             // 
@@ -131,6 +135,7 @@
             this.butBrowns.TabIndex = 7;
             this.butBrowns.Tag = "8";
             this.butBrowns.UseVisualStyleBackColor = false;
+            this.butBrowns.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butBengals
             // 
@@ -145,6 +150,7 @@
             this.butBengals.TabIndex = 6;
             this.butBengals.Tag = "7";
             this.butBengals.UseVisualStyleBackColor = false;
+            this.butBengals.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butBears
             // 
@@ -159,6 +165,7 @@
             this.butBears.TabIndex = 5;
             this.butBears.Tag = "6";
             this.butBears.UseVisualStyleBackColor = false;
+            this.butBears.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butPanthers
             // 
@@ -173,6 +180,7 @@
             this.butPanthers.TabIndex = 4;
             this.butPanthers.Tag = "5";
             this.butPanthers.UseVisualStyleBackColor = false;
+            this.butPanthers.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butCheifs
             // 
@@ -187,6 +195,7 @@
             this.butCheifs.TabIndex = 15;
             this.butCheifs.Tag = "16";
             this.butCheifs.UseVisualStyleBackColor = false;
+            this.butCheifs.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butJag
             // 
@@ -201,6 +210,7 @@
             this.butJag.TabIndex = 14;
             this.butJag.Tag = "15";
             this.butJag.UseVisualStyleBackColor = false;
+            this.butJag.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butColts
             // 
@@ -215,6 +225,7 @@
             this.butColts.TabIndex = 13;
             this.butColts.Tag = "14";
             this.butColts.UseVisualStyleBackColor = false;
+            this.butColts.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butTexans
             // 
@@ -229,6 +240,7 @@
             this.butTexans.TabIndex = 12;
             this.butTexans.Tag = "13";
             this.butTexans.UseVisualStyleBackColor = false;
+            this.butTexans.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butPackers
             // 
@@ -243,6 +255,7 @@
             this.butPackers.TabIndex = 11;
             this.butPackers.Tag = "12";
             this.butPackers.UseVisualStyleBackColor = false;
+            this.butPackers.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butLions
             // 
@@ -257,6 +270,7 @@
             this.butLions.TabIndex = 10;
             this.butLions.Tag = "11";
             this.butLions.UseVisualStyleBackColor = false;
+            this.butLions.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butBroncos
             // 
@@ -271,6 +285,7 @@
             this.butBroncos.TabIndex = 9;
             this.butBroncos.Tag = "10";
             this.butBroncos.UseVisualStyleBackColor = false;
+            this.butBroncos.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butCowboys
             // 
@@ -285,6 +300,7 @@
             this.butCowboys.TabIndex = 8;
             this.butCowboys.Tag = "9";
             this.butCowboys.UseVisualStyleBackColor = false;
+            this.butCowboys.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butGiants
             // 
@@ -299,6 +315,7 @@
             this.butGiants.TabIndex = 23;
             this.butGiants.Tag = "24";
             this.butGiants.UseVisualStyleBackColor = false;
+            this.butGiants.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butSaints
             // 
@@ -313,6 +330,7 @@
             this.butSaints.TabIndex = 22;
             this.butSaints.Tag = "23";
             this.butSaints.UseVisualStyleBackColor = false;
+            this.butSaints.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butPats
             // 
@@ -327,6 +345,7 @@
             this.butPats.TabIndex = 21;
             this.butPats.Tag = "22";
             this.butPats.UseVisualStyleBackColor = false;
+            this.butPats.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butVikings
             // 
@@ -341,6 +360,7 @@
             this.butVikings.TabIndex = 20;
             this.butVikings.Tag = "21";
             this.butVikings.UseVisualStyleBackColor = false;
+            this.butVikings.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butDolph
             // 
@@ -355,6 +375,7 @@
             this.butDolph.TabIndex = 19;
             this.butDolph.Tag = "20";
             this.butDolph.UseVisualStyleBackColor = false;
+            this.butDolph.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butRams
             // 
@@ -369,6 +390,7 @@
             this.butRams.TabIndex = 18;
             this.butRams.Tag = "19";
             this.butRams.UseVisualStyleBackColor = false;
+            this.butRams.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butCharge
             // 
@@ -383,6 +405,7 @@
             this.butCharge.TabIndex = 17;
             this.butCharge.Tag = "18";
             this.butCharge.UseVisualStyleBackColor = false;
+            this.butCharge.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butRaid
             // 
@@ -397,6 +420,7 @@
             this.butRaid.TabIndex = 16;
             this.butRaid.Tag = "17";
             this.butRaid.UseVisualStyleBackColor = false;
+            this.butRaid.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butWash
             // 
@@ -411,6 +435,7 @@
             this.butWash.TabIndex = 31;
             this.butWash.Tag = "32";
             this.butWash.UseVisualStyleBackColor = false;
+            this.butWash.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butTitans
             // 
@@ -425,6 +450,7 @@
             this.butTitans.TabIndex = 30;
             this.butTitans.Tag = "31";
             this.butTitans.UseVisualStyleBackColor = false;
+            this.butTitans.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butBucc
             // 
@@ -439,6 +465,7 @@
             this.butBucc.TabIndex = 29;
             this.butBucc.Tag = "30";
             this.butBucc.UseVisualStyleBackColor = false;
+            this.butBucc.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butSeaH
             // 
@@ -453,6 +480,7 @@
             this.butSeaH.TabIndex = 28;
             this.butSeaH.Tag = "29";
             this.butSeaH.UseVisualStyleBackColor = false;
+            this.butSeaH.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // but49
             // 
@@ -467,6 +495,7 @@
             this.but49.TabIndex = 27;
             this.but49.Tag = "28";
             this.but49.UseVisualStyleBackColor = false;
+            this.but49.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butSteel
             // 
@@ -481,6 +510,7 @@
             this.butSteel.TabIndex = 26;
             this.butSteel.Tag = "27";
             this.butSteel.UseVisualStyleBackColor = false;
+            this.butSteel.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butEagles
             // 
@@ -495,6 +525,7 @@
             this.butEagles.TabIndex = 25;
             this.butEagles.Tag = "26";
             this.butEagles.UseVisualStyleBackColor = false;
+            this.butEagles.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butJets
             // 
@@ -509,6 +540,7 @@
             this.butJets.TabIndex = 24;
             this.butJets.Tag = "25";
             this.butJets.UseVisualStyleBackColor = false;
+            this.butJets.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // NFLTeams
             // 

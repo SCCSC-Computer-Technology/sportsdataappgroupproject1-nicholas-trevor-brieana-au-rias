@@ -16,5 +16,18 @@ namespace Sports_Project_1
         {
             InitializeComponent();
         }
+
+
+        private void teamButton_Click(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;
+            if (btn == null) return;
+
+            if (btn.Tag == null) return;
+            int teamID = Convert.ToInt32(btn.Tag);
+
+            NFLStats statForm = new NFLStats(teamID, btn.BackgroundImage);
+            statForm.Show();
+        }
     }
 }

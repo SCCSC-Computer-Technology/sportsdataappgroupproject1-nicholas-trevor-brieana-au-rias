@@ -32,5 +32,11 @@ namespace Sports_Project_1
             this.Close();
             loginForm.Show();
         }
+
+        private void butNFL_Click(object sender, EventArgs e)
+        {
+            NFLTeams teams = new NFLTeams();
+            teams.Show();
+        }
     }
 }
