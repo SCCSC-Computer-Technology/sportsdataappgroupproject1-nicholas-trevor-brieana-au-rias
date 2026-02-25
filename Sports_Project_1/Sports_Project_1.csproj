@@ -48,7 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -67,6 +69,30 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NFLStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NFLStats.Designer.cs">
+      <DependentUpon>NFLStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NFLTeams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NFLTeams.Designer.cs">
+      <DependentUpon>NFLTeams.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sportsDBDataSet.Designer.cs">
@@ -77,6 +103,18 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NFLStats.resx">
+      <DependentUpon>NFLStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NFLTeams.resx">
+      <DependentUpon>NFLTeams.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -85,6 +123,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -106,11 +145,50 @@
     <None Include="sportsDBDataSet.xss">
       <DependentUpon>sportsDBDataSet.xsd</DependentUpon>
     </None>
+    <None Include="UserLogins.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\login_screen.png" />
+    <None Include="Resources\49ers.png" />
+    <None Include="Resources\Bears.png" />
+    <None Include="Resources\Bengals.png" />
+    <None Include="Resources\Bills.png" />
+    <None Include="Resources\Broncos.png" />
+    <None Include="Resources\Browns.png" />
+    <None Include="Resources\Buccaneers.png" />
+    <None Include="Resources\Cardinals.png" />
+    <None Include="Resources\Chargers.png" />
+    <None Include="Resources\Chiefs.png" />
+    <None Include="Resources\Colts.png" />
+    <None Include="Resources\Commanders.png" />
+    <None Include="Resources\Cowboys.png" />
+    <None Include="Resources\Dolphins.png" />
+    <None Include="Resources\Eagles.png" />
+    <None Include="Resources\Falcons.png" />
+    <None Include="Resources\Giants.png" />
+    <None Include="Resources\Green Bay.png" />
+    <None Include="Resources\Jaguars.png" />
+    <None Include="Resources\Jets.png" />
+    <None Include="Resources\Lions.png" />
+    <None Include="Resources\NFL_Background.png" />
+    <None Include="Resources\Panthers.png" />
+    <None Include="Resources\Patriots.png" />
+    <None Include="Resources\Raiders.png" />
+    <None Include="Resources\Rams.png" />
+    <None Include="Resources\Ravens.png" />
+    <None Include="Resources\Saints.png" />
+    <None Include="Resources\Seahawks.png" />
+    <None Include="Resources\Steelers.png" />
+    <None Include="Resources\Texans.png" />
+    <None Include="Resources\Titans.png" />
+    <None Include="Resources\Vikings.png" />
+    <None Include="Resources\NHL_logoCrop.png" />
+    <None Include="Resources\NFL_logoCrop.png" />
     <Content Include="sportsDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -130,6 +208,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SportStatLibrary\SportStatLibrary.csproj">
+      <Project>{8577e8e4-e308-4f11-96dd-a15bfc65f329}</Project>
+      <Name>SportStatLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

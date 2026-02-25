@@ -1,0 +1,6 @@
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\bin\Debug\SportStatLibrary.dll
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\bin\Debug\SportStatLibrary.pdb
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.AssemblyReference.cache
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.CoreCompileInputs.cache
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\obj\Debug\SportStatLibrary.dll
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\obj\Debug\SportStatLibrary.pdb
