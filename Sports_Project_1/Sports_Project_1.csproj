@@ -81,11 +81,11 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NFLStats.cs">
+    <Compile Include="NFLTeamStats.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NFLStats.Designer.cs">
-      <DependentUpon>NFLStats.cs</DependentUpon>
+    <Compile Include="NFLTeamStats.Designer.cs">
+      <DependentUpon>NFLTeamStats.cs</DependentUpon>
     </Compile>
     <Compile Include="NFLTeams.cs">
       <SubType>Form</SubType>
@@ -109,8 +109,8 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NFLStats.resx">
-      <DependentUpon>NFLStats.cs</DependentUpon>
+    <EmbeddedResource Include="NFLTeamStats.resx">
+      <DependentUpon>NFLTeamStats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NFLTeams.resx">
       <DependentUpon>NFLTeams.cs</DependentUpon>
