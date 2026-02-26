@@ -4,3 +4,9 @@ C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\obj\
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.CoreCompileInputs.cache
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\obj\Debug\SportStatLibrary.dll
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\SportStatLibrary\obj\Debug\SportStatLibrary.pdb
+C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\bin\Debug\SportStatLibrary.dll
+C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\bin\Debug\SportStatLibrary.pdb
+C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.AssemblyReference.cache
+C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.CoreCompileInputs.cache
+C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.dll
+C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.pdb

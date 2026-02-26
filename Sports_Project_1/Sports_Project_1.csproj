@@ -93,6 +93,12 @@
     <Compile Include="NFLTeams.Designer.cs">
       <DependentUpon>NFLTeams.cs</DependentUpon>
     </Compile>
+    <Compile Include="NHLStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NHLStats.Designer.cs">
+      <DependentUpon>NHLStats.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sportsDBDataSet.Designer.cs">
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NFLTeams.resx">
       <DependentUpon>NFLTeams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NHLStats.resx">
+      <DependentUpon>NHLStats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -210,6 +219,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NHL_Class_Library\NHL_Class_Library.csproj">
+      <Project>{fd34676f-3942-45dd-966c-856a08a0b357}</Project>
+      <Name>NHL_Class_Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SportStatLibrary\SportStatLibrary.csproj">
       <Project>{8577e8e4-e308-4f11-96dd-a15bfc65f329}</Project>
       <Name>SportStatLibrary</Name>
