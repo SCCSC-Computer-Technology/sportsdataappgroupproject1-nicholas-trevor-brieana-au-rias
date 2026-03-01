@@ -48,9 +48,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NHL_Class_Library">
-      <HintPath>..\NHL_Class_Library\obj\Debug\NHL_Class_Library.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
@@ -84,23 +81,17 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NFLStats.cs">
+    <Compile Include="NFLTeamStats.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NFLStats.Designer.cs">
-      <DependentUpon>NFLStats.cs</DependentUpon>
+    <Compile Include="NFLTeamStats.Designer.cs">
+      <DependentUpon>NFLTeamStats.cs</DependentUpon>
     </Compile>
     <Compile Include="NFLTeams.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NFLTeams.Designer.cs">
       <DependentUpon>NFLTeams.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NHLPlayersForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NHLPlayersForm.Designer.cs">
-      <DependentUpon>NHLPlayersForm.cs</DependentUpon>
     </Compile>
     <Compile Include="NHLStats.cs">
       <SubType>Form</SubType>
@@ -115,12 +106,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>sportsDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="UserFavoriteTeam.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserFavoriteTeam.Designer.cs">
-      <DependentUpon>UserFavoriteTeam.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,14 +115,11 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NFLStats.resx">
-      <DependentUpon>NFLStats.cs</DependentUpon>
+    <EmbeddedResource Include="NFLTeamStats.resx">
+      <DependentUpon>NFLTeamStats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NFLTeams.resx">
       <DependentUpon>NFLTeams.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NHLPlayersForm.resx">
-      <DependentUpon>NHLPlayersForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NHLStats.resx">
       <DependentUpon>NHLStats.cs</DependentUpon>
@@ -152,9 +134,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UserFavoriteTeam.resx">
-      <DependentUpon>UserFavoriteTeam.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -175,9 +154,9 @@
     <None Include="sportsDBDataSet.xss">
       <DependentUpon>sportsDBDataSet.xsd</DependentUpon>
     </None>
-    <Content Include="UserLogins.csv">
+    <None Include="UserLogins.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -240,6 +219,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NHL_Class_Library\NHL_Class_Library.csproj">
+      <Project>{fd34676f-3942-45dd-966c-856a08a0b357}</Project>
+      <Name>NHL_Class_Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SportStatLibrary\SportStatLibrary.csproj">
       <Project>{8577e8e4-e308-4f11-96dd-a15bfc65f329}</Project>
       <Name>SportStatLibrary</Name>
