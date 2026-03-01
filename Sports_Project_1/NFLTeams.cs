@@ -26,7 +26,7 @@ namespace Sports_Project_1
             if (btn.Tag == null) return;
             int teamID = Convert.ToInt32(btn.Tag);
 
-            NFLTeamStats statForm = new NFLTeamStats(teamID, btn.BackgroundImage); //teamid is passed to the statForm
+            NFLStats statForm = new NFLStats(teamID, btn.BackgroundImage); //teamid is passed to the statForm
             statForm.Show();
         }
 
