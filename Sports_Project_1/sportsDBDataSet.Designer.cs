@@ -904,6 +904,52 @@ namespace Sports_Project_1 {
             
             private global::System.Data.DataColumn columnJersey_Number;
             
+            private global::System.Data.DataColumn columnF7;
+            
+            private global::System.Data.DataColumn _column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost;
+            
+            private global::System.Data.DataColumn columnF9;
+            
+            private global::System.Data.DataColumn columnF10;
+            
+            private global::System.Data.DataColumn columnF11;
+            
+            private global::System.Data.DataColumn columnF12;
+            
+            private global::System.Data.DataColumn columnF13;
+            
+            private global::System.Data.DataColumn columnF14;
+            
+            private global::System.Data.DataColumn columnF15;
+            
+            private global::System.Data.DataColumn columnF16;
+            
+            private global::System.Data.DataColumn columnF17;
+            
+            private global::System.Data.DataColumn columnF18;
+            
+            private global::System.Data.DataColumn columnF19;
+            
+            private global::System.Data.DataColumn columnF20;
+            
+            private global::System.Data.DataColumn columnF21;
+            
+            private global::System.Data.DataColumn columnF22;
+            
+            private global::System.Data.DataColumn columnF23;
+            
+            private global::System.Data.DataColumn columnF24;
+            
+            private global::System.Data.DataColumn columnF25;
+            
+            private global::System.Data.DataColumn columnF26;
+            
+            private global::System.Data.DataColumn columnF27;
+            
+            private global::System.Data.DataColumn columnF28;
+            
+            private global::System.Data.DataColumn columnF29;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
             public @__NFL_Players__DataTable() {
@@ -987,6 +1033,190 @@ namespace Sports_Project_1 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F7Column {
+                get {
+                    return this.columnF7;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn ____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rostColumn {
+                get {
+                    return this._column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F9Column {
+                get {
+                    return this.columnF9;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F10Column {
+                get {
+                    return this.columnF10;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F11Column {
+                get {
+                    return this.columnF11;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F12Column {
+                get {
+                    return this.columnF12;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F13Column {
+                get {
+                    return this.columnF13;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F14Column {
+                get {
+                    return this.columnF14;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F15Column {
+                get {
+                    return this.columnF15;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F16Column {
+                get {
+                    return this.columnF16;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F17Column {
+                get {
+                    return this.columnF17;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F18Column {
+                get {
+                    return this.columnF18;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F19Column {
+                get {
+                    return this.columnF19;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F20Column {
+                get {
+                    return this.columnF20;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F21Column {
+                get {
+                    return this.columnF21;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F22Column {
+                get {
+                    return this.columnF22;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F23Column {
+                get {
+                    return this.columnF23;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F24Column {
+                get {
+                    return this.columnF24;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F25Column {
+                get {
+                    return this.columnF25;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F26Column {
+                get {
+                    return this.columnF26;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F27Column {
+                get {
+                    return this.columnF27;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F28Column {
+                get {
+                    return this.columnF28;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn F29Column {
+                get {
+                    return this.columnF29;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1022,7 +1252,36 @@ namespace Sports_Project_1 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
-            public @__NFL_Players__Row Add__NFL_Players__Row(double PlayerID, string First_Name, string Last_Name, double TeamID, string Position, double Jersey_Number) {
+            public @__NFL_Players__Row Add__NFL_Players__Row(
+                        double PlayerID, 
+                        string First_Name, 
+                        string Last_Name, 
+                        double TeamID, 
+                        string Position, 
+                        double Jersey_Number, 
+                        string F7, 
+                        string ____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost, 
+                        string F9, 
+                        string F10, 
+                        string F11, 
+                        string F12, 
+                        string F13, 
+                        string F14, 
+                        string F15, 
+                        string F16, 
+                        string F17, 
+                        string F18, 
+                        string F19, 
+                        string F20, 
+                        string F21, 
+                        string F22, 
+                        string F23, 
+                        string F24, 
+                        string F25, 
+                        string F26, 
+                        string F27, 
+                        string F28, 
+                        string F29) {
                 @__NFL_Players__Row row__NFL_Players__Row = ((@__NFL_Players__Row)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         PlayerID,
@@ -1030,7 +1289,30 @@ namespace Sports_Project_1 {
                         Last_Name,
                         TeamID,
                         Position,
-                        Jersey_Number};
+                        Jersey_Number,
+                        F7,
+                        ____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost,
+                        F9,
+                        F10,
+                        F11,
+                        F12,
+                        F13,
+                        F14,
+                        F15,
+                        F16,
+                        F17,
+                        F18,
+                        F19,
+                        F20,
+                        F21,
+                        F22,
+                        F23,
+                        F24,
+                        F25,
+                        F26,
+                        F27,
+                        F28,
+                        F29};
                 row__NFL_Players__Row.ItemArray = columnValuesArray;
                 this.Rows.Add(row__NFL_Players__Row);
                 return row__NFL_Players__Row;
@@ -1059,6 +1341,29 @@ namespace Sports_Project_1 {
                 this.columnTeamID = base.Columns["TeamID"];
                 this.columnPosition = base.Columns["Position"];
                 this.columnJersey_Number = base.Columns["Jersey Number"];
+                this.columnF7 = base.Columns["F7"];
+                this._column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost = base.Columns["// Note from Trevor NFL player data was collected from ESPN rost"];
+                this.columnF9 = base.Columns["F9"];
+                this.columnF10 = base.Columns["F10"];
+                this.columnF11 = base.Columns["F11"];
+                this.columnF12 = base.Columns["F12"];
+                this.columnF13 = base.Columns["F13"];
+                this.columnF14 = base.Columns["F14"];
+                this.columnF15 = base.Columns["F15"];
+                this.columnF16 = base.Columns["F16"];
+                this.columnF17 = base.Columns["F17"];
+                this.columnF18 = base.Columns["F18"];
+                this.columnF19 = base.Columns["F19"];
+                this.columnF20 = base.Columns["F20"];
+                this.columnF21 = base.Columns["F21"];
+                this.columnF22 = base.Columns["F22"];
+                this.columnF23 = base.Columns["F23"];
+                this.columnF24 = base.Columns["F24"];
+                this.columnF25 = base.Columns["F25"];
+                this.columnF26 = base.Columns["F26"];
+                this.columnF27 = base.Columns["F27"];
+                this.columnF28 = base.Columns["F28"];
+                this.columnF29 = base.Columns["F29"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1076,9 +1381,80 @@ namespace Sports_Project_1 {
                 base.Columns.Add(this.columnPosition);
                 this.columnJersey_Number = new global::System.Data.DataColumn("Jersey Number", typeof(double), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnJersey_Number);
+                this.columnF7 = new global::System.Data.DataColumn("F7", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF7);
+                this._column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost = new global::System.Data.DataColumn("// Note from Trevor NFL player data was collected from ESPN rost", typeof(string), null, global::System.Data.MappingType.Element);
+                this._column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost.ExtendedProperties.Add("Generator_ColumnVarNameInTable", "_column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost");
+                this._column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost.ExtendedProperties.Add("Generator_UserColumnName", "// Note from Trevor NFL player data was collected from ESPN rost");
+                base.Columns.Add(this._column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost);
+                this.columnF9 = new global::System.Data.DataColumn("F9", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF9);
+                this.columnF10 = new global::System.Data.DataColumn("F10", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF10);
+                this.columnF11 = new global::System.Data.DataColumn("F11", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF11);
+                this.columnF12 = new global::System.Data.DataColumn("F12", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF12);
+                this.columnF13 = new global::System.Data.DataColumn("F13", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF13);
+                this.columnF14 = new global::System.Data.DataColumn("F14", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF14);
+                this.columnF15 = new global::System.Data.DataColumn("F15", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF15);
+                this.columnF16 = new global::System.Data.DataColumn("F16", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF16);
+                this.columnF17 = new global::System.Data.DataColumn("F17", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF17);
+                this.columnF18 = new global::System.Data.DataColumn("F18", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF18);
+                this.columnF19 = new global::System.Data.DataColumn("F19", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF19);
+                this.columnF20 = new global::System.Data.DataColumn("F20", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF20);
+                this.columnF21 = new global::System.Data.DataColumn("F21", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF21);
+                this.columnF22 = new global::System.Data.DataColumn("F22", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF22);
+                this.columnF23 = new global::System.Data.DataColumn("F23", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF23);
+                this.columnF24 = new global::System.Data.DataColumn("F24", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF24);
+                this.columnF25 = new global::System.Data.DataColumn("F25", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF25);
+                this.columnF26 = new global::System.Data.DataColumn("F26", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF26);
+                this.columnF27 = new global::System.Data.DataColumn("F27", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF27);
+                this.columnF28 = new global::System.Data.DataColumn("F28", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF28);
+                this.columnF29 = new global::System.Data.DataColumn("F29", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnF29);
                 this.columnFirst_Name.MaxLength = 255;
                 this.columnLast_Name.MaxLength = 255;
                 this.columnPosition.MaxLength = 255;
+                this.columnF7.MaxLength = 255;
+                this._column___Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost.MaxLength = 255;
+                this.columnF9.MaxLength = 255;
+                this.columnF10.MaxLength = 255;
+                this.columnF11.MaxLength = 255;
+                this.columnF12.MaxLength = 255;
+                this.columnF13.MaxLength = 255;
+                this.columnF14.MaxLength = 255;
+                this.columnF15.MaxLength = 255;
+                this.columnF16.MaxLength = 255;
+                this.columnF17.MaxLength = 255;
+                this.columnF18.MaxLength = 255;
+                this.columnF19.MaxLength = 255;
+                this.columnF20.MaxLength = 255;
+                this.columnF21.MaxLength = 255;
+                this.columnF22.MaxLength = 255;
+                this.columnF23.MaxLength = 255;
+                this.columnF24.MaxLength = 255;
+                this.columnF25.MaxLength = 255;
+                this.columnF26.MaxLength = 255;
+                this.columnF27.MaxLength = 255;
+                this.columnF28.MaxLength = 255;
+                this.columnF29.MaxLength = 255;
                 this.ExtendedProperties.Add("Generator_TableVarName", "_table_NFL_Players__");
                 this.ExtendedProperties.Add("Generator_UserTableName", "\'NFL Players$\'");
             }
@@ -3963,6 +4339,375 @@ namespace Sports_Project_1 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F7 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F7Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F7\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F7Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string ____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rost {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rostColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'// Note from Trevor NFL player data was collected from ESPN" +
+                                " rost\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rostColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F9 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F9Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F9\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F9Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F10 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F10Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F10\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F10Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F11 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F11Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F11\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F11Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F12 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F12Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F12\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F12Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F13 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F13Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F13\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F13Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F14 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F14Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F14\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F14Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F15 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F15Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F15\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F15Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F16 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F16Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F16\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F16Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F17 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F17Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F17\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F17Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F18 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F18Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F18\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F18Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F19 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F19Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F19\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F19Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F20 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F20Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F20\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F20Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F21 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F21Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F21\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F21Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F22 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F22Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F22\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F22Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F23 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F23Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F23\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F23Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F24 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F24Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F24\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F24Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F25 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F25Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F25\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F25Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F26 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F26Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F26\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F26Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F27 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F27Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F27\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F27Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F28 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F28Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F28\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F28Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string F29 {
+                get {
+                    try {
+                        return ((string)(this[this._table_NFL_Players__.F29Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'F29\' in table \'\'NFL Players$\'\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this._table_NFL_Players__.F29Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
             public bool IsPlayerIDNull() {
                 return this.IsNull(this._table_NFL_Players__.PlayerIDColumn);
             }
@@ -4031,6 +4776,282 @@ namespace Sports_Project_1 {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
             public void SetJersey_NumberNull() {
                 this[this._table_NFL_Players__.Jersey_NumberColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF7Null() {
+                return this.IsNull(this._table_NFL_Players__.F7Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF7Null() {
+                this[this._table_NFL_Players__.F7Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool Is____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rostNull() {
+                return this.IsNull(this._table_NFL_Players__.____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rostColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void Set____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rostNull() {
+                this[this._table_NFL_Players__.____Note_from_Trevor_NFL_player_data_was_collected_from_ESPN_rostColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF9Null() {
+                return this.IsNull(this._table_NFL_Players__.F9Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF9Null() {
+                this[this._table_NFL_Players__.F9Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF10Null() {
+                return this.IsNull(this._table_NFL_Players__.F10Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF10Null() {
+                this[this._table_NFL_Players__.F10Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF11Null() {
+                return this.IsNull(this._table_NFL_Players__.F11Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF11Null() {
+                this[this._table_NFL_Players__.F11Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF12Null() {
+                return this.IsNull(this._table_NFL_Players__.F12Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF12Null() {
+                this[this._table_NFL_Players__.F12Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF13Null() {
+                return this.IsNull(this._table_NFL_Players__.F13Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF13Null() {
+                this[this._table_NFL_Players__.F13Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF14Null() {
+                return this.IsNull(this._table_NFL_Players__.F14Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF14Null() {
+                this[this._table_NFL_Players__.F14Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF15Null() {
+                return this.IsNull(this._table_NFL_Players__.F15Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF15Null() {
+                this[this._table_NFL_Players__.F15Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF16Null() {
+                return this.IsNull(this._table_NFL_Players__.F16Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF16Null() {
+                this[this._table_NFL_Players__.F16Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF17Null() {
+                return this.IsNull(this._table_NFL_Players__.F17Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF17Null() {
+                this[this._table_NFL_Players__.F17Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF18Null() {
+                return this.IsNull(this._table_NFL_Players__.F18Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF18Null() {
+                this[this._table_NFL_Players__.F18Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF19Null() {
+                return this.IsNull(this._table_NFL_Players__.F19Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF19Null() {
+                this[this._table_NFL_Players__.F19Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF20Null() {
+                return this.IsNull(this._table_NFL_Players__.F20Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF20Null() {
+                this[this._table_NFL_Players__.F20Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF21Null() {
+                return this.IsNull(this._table_NFL_Players__.F21Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF21Null() {
+                this[this._table_NFL_Players__.F21Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF22Null() {
+                return this.IsNull(this._table_NFL_Players__.F22Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF22Null() {
+                this[this._table_NFL_Players__.F22Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF23Null() {
+                return this.IsNull(this._table_NFL_Players__.F23Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF23Null() {
+                this[this._table_NFL_Players__.F23Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF24Null() {
+                return this.IsNull(this._table_NFL_Players__.F24Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF24Null() {
+                this[this._table_NFL_Players__.F24Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF25Null() {
+                return this.IsNull(this._table_NFL_Players__.F25Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF25Null() {
+                this[this._table_NFL_Players__.F25Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF26Null() {
+                return this.IsNull(this._table_NFL_Players__.F26Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF26Null() {
+                this[this._table_NFL_Players__.F26Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF27Null() {
+                return this.IsNull(this._table_NFL_Players__.F27Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF27Null() {
+                this[this._table_NFL_Players__.F27Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF28Null() {
+                return this.IsNull(this._table_NFL_Players__.F28Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF28Null() {
+                this[this._table_NFL_Players__.F28Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsF29Null() {
+                return this.IsNull(this._table_NFL_Players__.F29Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetF29Null() {
+                this[this._table_NFL_Players__.F29Column] = global::System.Convert.DBNull;
             }
         }
         
@@ -6355,12 +7376,33 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
             tableMapping.ColumnMappings.Add("TeamID", "TeamID");
             tableMapping.ColumnMappings.Add("Position", "Position");
             tableMapping.ColumnMappings.Add("Jersey Number", "Jersey Number");
+            tableMapping.ColumnMappings.Add("F7", "F7");
+            tableMapping.ColumnMappings.Add("// Note from Trevor NFL player data was collected from ESPN rost", "// Note from Trevor NFL player data was collected from ESPN rost");
+            tableMapping.ColumnMappings.Add("F9", "F9");
+            tableMapping.ColumnMappings.Add("F10", "F10");
+            tableMapping.ColumnMappings.Add("F11", "F11");
+            tableMapping.ColumnMappings.Add("F12", "F12");
+            tableMapping.ColumnMappings.Add("F13", "F13");
+            tableMapping.ColumnMappings.Add("F14", "F14");
+            tableMapping.ColumnMappings.Add("F15", "F15");
+            tableMapping.ColumnMappings.Add("F16", "F16");
+            tableMapping.ColumnMappings.Add("F17", "F17");
+            tableMapping.ColumnMappings.Add("F18", "F18");
+            tableMapping.ColumnMappings.Add("F19", "F19");
+            tableMapping.ColumnMappings.Add("F20", "F20");
+            tableMapping.ColumnMappings.Add("F21", "F21");
+            tableMapping.ColumnMappings.Add("F22", "F22");
+            tableMapping.ColumnMappings.Add("F23", "F23");
+            tableMapping.ColumnMappings.Add("F24", "F24");
+            tableMapping.ColumnMappings.Add("F25", "F25");
+            tableMapping.ColumnMappings.Add("F26", "F26");
+            tableMapping.ColumnMappings.Add("F27", "F27");
+            tableMapping.ColumnMappings.Add("F28", "F28");
+            tableMapping.ColumnMappings.Add("F29", "F29");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [\'NFL Players$\'] ([PlayerID], [First Name], [Last Name], [TeamID], [P" +
-                "osition], [Jersey Number]) VALUES (@PlayerID, @First_Name, @Last_Name, @TeamID, " +
-                "@Position, @Jersey_Number)";
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].['NFL Players$'] ([PlayerID], [First Name], [Last Name], [TeamID], [Position], [Jersey Number], [F7], [// Note from Trevor NFL player data was collected from ESPN rost], [F9], [F10], [F11], [F12], [F13], [F14], [F15], [F16], [F17], [F18], [F19], [F20], [F21], [F22], [F23], [F24], [F25], [F26], [F27], [F28], [F29]) VALUES (@PlayerID, @First_Name, @Last_Name, @TeamID, @Position, @Jersey_Number, @F7, @p1, @F9, @F10, @F11, @F12, @F13, @F14, @F15, @F16, @F17, @F18, @F19, @F20, @F21, @F22, @F23, @F24, @F25, @F26, @F27, @F28, @F29)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PlayerID", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PlayerID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@First_Name", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "First Name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -6368,6 +7410,29 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TeamID", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TeamID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Position", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Position", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Jersey_Number", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Jersey Number", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F7", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F7", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@p1", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "// Note from Trevor NFL player data was collected from ESPN rost", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F9", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F9", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F10", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F10", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F11", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F11", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F12", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F12", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F13", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F13", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F14", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F14", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F15", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F15", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F16", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F16", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F17", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F17", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F18", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F18", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F19", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F19", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F20", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F20", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F21", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F21", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F22", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F22", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F23", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F23", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F24", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F24", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F25", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F25", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F26", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F26", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F27", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F27", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F28", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F28", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@F29", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "F29", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6380,18 +7445,11 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT PlayerID, [First Name], [Last Name], TeamID, Position, [Jersey Number] FRO" +
-                "M [\'NFL Players$\']";
+            this._commandCollection[0].CommandText = @"SELECT PlayerID, [First Name], [Last Name], TeamID, Position, [Jersey Number], F7, [// Note from Trevor NFL player data was collected from ESPN rost], F9, F10, F11, F12, F13, F14, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24, F25, F26, F27, F28, F29 FROM dbo.['NFL Players$']";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
-            this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT PlayerID, [First Name], [Last Name], TeamID, Position, [Jersey Number] FRO" +
-                "M [\'NFL Players$\'] WHERE TeamID = @TeamID";
-            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TeamID", global::System.Data.SqlDbType.Float, 8, global::System.Data.ParameterDirection.Input, 0, 0, "TeamID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6413,42 +7471,6 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual sportsDBDataSet.@__NFL_Players__DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            sportsDBDataSet.@__NFL_Players__DataTable dataTable = new sportsDBDataSet.@__NFL_Players__DataTable();
-            this.Adapter.Fill(dataTable);
-            return dataTable;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillByTeam(sportsDBDataSet.@__NFL_Players__DataTable dataTable, global::System.Nullable<double> TeamID) {
-            this.Adapter.SelectCommand = this.CommandCollection[1];
-            if ((TeamID.HasValue == true)) {
-                this.Adapter.SelectCommand.Parameters[0].Value = ((double)(TeamID.Value));
-            }
-            else {
-                this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
-            }
-            if ((this.ClearBeforeFill == true)) {
-                dataTable.Clear();
-            }
-            int returnValue = this.Adapter.Fill(dataTable);
-            return returnValue;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual sportsDBDataSet.@__NFL_Players__DataTable GetDataBy(global::System.Nullable<double> TeamID) {
-            this.Adapter.SelectCommand = this.CommandCollection[1];
-            if ((TeamID.HasValue == true)) {
-                this.Adapter.SelectCommand.Parameters[0].Value = ((double)(TeamID.Value));
-            }
-            else {
-                this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
-            }
             sportsDBDataSet.@__NFL_Players__DataTable dataTable = new sportsDBDataSet.@__NFL_Players__DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
@@ -6487,7 +7509,36 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(global::System.Nullable<double> PlayerID, string First_Name, string Last_Name, global::System.Nullable<double> TeamID, string Position, global::System.Nullable<double> Jersey_Number) {
+        public virtual int Insert(
+                    global::System.Nullable<double> PlayerID, 
+                    string First_Name, 
+                    string Last_Name, 
+                    global::System.Nullable<double> TeamID, 
+                    string Position, 
+                    global::System.Nullable<double> Jersey_Number, 
+                    string F7, 
+                    string p1, 
+                    string F9, 
+                    string F10, 
+                    string F11, 
+                    string F12, 
+                    string F13, 
+                    string F14, 
+                    string F15, 
+                    string F16, 
+                    string F17, 
+                    string F18, 
+                    string F19, 
+                    string F20, 
+                    string F21, 
+                    string F22, 
+                    string F23, 
+                    string F24, 
+                    string F25, 
+                    string F26, 
+                    string F27, 
+                    string F28, 
+                    string F29) {
             if ((PlayerID.HasValue == true)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = ((double)(PlayerID.Value));
             }
@@ -6523,6 +7574,144 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
             }
             else {
                 this.Adapter.InsertCommand.Parameters[5].Value = global::System.DBNull.Value;
+            }
+            if ((F7 == null)) {
+                this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[6].Value = ((string)(F7));
+            }
+            if ((p1 == null)) {
+                this.Adapter.InsertCommand.Parameters[7].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[7].Value = ((string)(p1));
+            }
+            if ((F9 == null)) {
+                this.Adapter.InsertCommand.Parameters[8].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[8].Value = ((string)(F9));
+            }
+            if ((F10 == null)) {
+                this.Adapter.InsertCommand.Parameters[9].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[9].Value = ((string)(F10));
+            }
+            if ((F11 == null)) {
+                this.Adapter.InsertCommand.Parameters[10].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[10].Value = ((string)(F11));
+            }
+            if ((F12 == null)) {
+                this.Adapter.InsertCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[11].Value = ((string)(F12));
+            }
+            if ((F13 == null)) {
+                this.Adapter.InsertCommand.Parameters[12].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[12].Value = ((string)(F13));
+            }
+            if ((F14 == null)) {
+                this.Adapter.InsertCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[13].Value = ((string)(F14));
+            }
+            if ((F15 == null)) {
+                this.Adapter.InsertCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[14].Value = ((string)(F15));
+            }
+            if ((F16 == null)) {
+                this.Adapter.InsertCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[15].Value = ((string)(F16));
+            }
+            if ((F17 == null)) {
+                this.Adapter.InsertCommand.Parameters[16].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[16].Value = ((string)(F17));
+            }
+            if ((F18 == null)) {
+                this.Adapter.InsertCommand.Parameters[17].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[17].Value = ((string)(F18));
+            }
+            if ((F19 == null)) {
+                this.Adapter.InsertCommand.Parameters[18].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[18].Value = ((string)(F19));
+            }
+            if ((F20 == null)) {
+                this.Adapter.InsertCommand.Parameters[19].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[19].Value = ((string)(F20));
+            }
+            if ((F21 == null)) {
+                this.Adapter.InsertCommand.Parameters[20].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[20].Value = ((string)(F21));
+            }
+            if ((F22 == null)) {
+                this.Adapter.InsertCommand.Parameters[21].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[21].Value = ((string)(F22));
+            }
+            if ((F23 == null)) {
+                this.Adapter.InsertCommand.Parameters[22].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[22].Value = ((string)(F23));
+            }
+            if ((F24 == null)) {
+                this.Adapter.InsertCommand.Parameters[23].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[23].Value = ((string)(F24));
+            }
+            if ((F25 == null)) {
+                this.Adapter.InsertCommand.Parameters[24].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[24].Value = ((string)(F25));
+            }
+            if ((F26 == null)) {
+                this.Adapter.InsertCommand.Parameters[25].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[25].Value = ((string)(F26));
+            }
+            if ((F27 == null)) {
+                this.Adapter.InsertCommand.Parameters[26].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[26].Value = ((string)(F27));
+            }
+            if ((F28 == null)) {
+                this.Adapter.InsertCommand.Parameters[27].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[27].Value = ((string)(F28));
+            }
+            if ((F29 == null)) {
+                this.Adapter.InsertCommand.Parameters[28].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[28].Value = ((string)(F29));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
