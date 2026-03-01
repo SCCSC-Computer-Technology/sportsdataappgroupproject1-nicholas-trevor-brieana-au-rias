@@ -43,7 +43,7 @@ namespace SportStatLibrary
 
 
 
-                    User user = new User(iD, columns[1], columns[2], columns[3], favNHLID, favNFLID);
+                    User user = new User(iD, columns[1], columns[2], columns[3], favNFLID, favNHLID);
                     users.Add(user);
 
                 }
@@ -58,9 +58,35 @@ namespace SportStatLibrary
             File.AppendAllText(filePath, Environment.NewLine + row);
         }
 
-
-
-
+        public bool UpdateUser(string filePath, User updatedUser)
+        {
+            if (!File.Exists(filePath)) return false; 
+            
+            var lines = File.ReadAllLines(filePath).ToList(); 
+            if (lines.Count == 0) return false; 
+            
+            bool updated = false; 
+            
+            for (int i = 1; i < lines.Count; i++) // start at 1 to skip header
+            { 
+                if (string.IsNullOrWhiteSpace(lines[i])) continue; 
+                
+                string[] cols = lines[i].Split(','); 
+                if (cols.Length < 6) continue; 
+                
+                if (int.TryParse(cols[0].Trim(), out int id) && id == updatedUser.ID) 
+                { 
+                    lines[i] = $"{updatedUser.ID},{updatedUser.Username},{updatedUser.Password},{updatedUser.FirstName},{updatedUser.FavNFLTeamID},{updatedUser.FavNHLTeamID}"; 
+                    updated = true; 
+                    break;
+                } 
+            } 
+            
+            if (!updated) return false; 
+            
+            File.WriteAllLines(filePath, lines); 
+            return true;
+        }
 
     }
 }
