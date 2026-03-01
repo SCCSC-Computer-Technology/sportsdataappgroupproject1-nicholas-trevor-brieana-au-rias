@@ -7,12 +7,3 @@ C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-a
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.csproj.CoreCompileInputs.cache
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.exe
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.pdb
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\bin\Debug\NHLStats.exe.config
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\bin\Debug\NHLStats.exe
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\bin\Debug\NHLStats.pdb
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.csproj.AssemblyReference.cache
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.Properties.Resources.resources
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.csproj.GenerateResource.cache
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.csproj.CoreCompileInputs.cache
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.exe
-C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.pdb
