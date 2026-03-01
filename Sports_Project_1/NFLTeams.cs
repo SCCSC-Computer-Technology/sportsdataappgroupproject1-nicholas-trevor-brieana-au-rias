@@ -27,9 +27,7 @@ namespace Sports_Project_1
             int teamID = Convert.ToInt32(btn.Tag);
 
             NFLTeamStats statForm = new NFLTeamStats(teamID, btn.BackgroundImage); //teamid is passed to the statForm
-            this.Hide();
-            statForm.ShowDialog();
-            this.Show();
+            statForm.Show();
         }
 
         private void butExit_Click(object sender, EventArgs e)
