@@ -15,13 +15,15 @@ namespace Sports_Project_1
     {
 
         private Form loginForm;
+        private User _currentUser;
 
         public MainForm(User person, Login login)
         {
             InitializeComponent();
+
+            //Stores logged in user so it can be passed to other forms
+            _currentUser = person;
             lblName.Text = "Welcome Back " + person.FirstName;
-
-
             this.loginForm = login;
 
         }
@@ -43,6 +45,13 @@ namespace Sports_Project_1
         {
             Form1 NHLteams = new Form1();
             NHLteams.Show();
+        }
+
+        private void butFavTeams_Click(object sender, EventArgs e)
+        {
+            //Opens UserFavoriteTeam form and passes the current user object
+            UserFavoriteTeam fav = new UserFavoriteTeam(_currentUser);
+            fav.ShowDialog();
         }
     }
 }
