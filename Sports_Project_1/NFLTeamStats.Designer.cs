@@ -37,19 +37,20 @@
             this.lblLosses = new System.Windows.Forms.Label();
             this.lblTies = new System.Windows.Forms.Label();
             this._NFL_Players__BindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this._NFL_Players__BindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this._NFL_Players__DataGridView = new System.Windows.Forms.DataGridView();
+            this.lblPlayers = new System.Windows.Forms.Label();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,7 +61,6 @@
             this.sportsDBDataSet = new Sports_Project_1.sportsDBDataSet();
             this._NFL_Players__TableAdapter = new Sports_Project_1.sportsDBDataSetTableAdapters._NFL_Players__TableAdapter();
             this.tableAdapterManager = new Sports_Project_1.sportsDBDataSetTableAdapters.TableAdapterManager();
-            this.lblPlayers = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingNavigator)).BeginInit();
             this._NFL_Players__BindingNavigator.SuspendLayout();
@@ -72,7 +72,7 @@
             // pBoxLogo
             // 
             this.pBoxLogo.BackColor = System.Drawing.Color.Transparent;
-            this.pBoxLogo.Location = new System.Drawing.Point(30, 40);
+            this.pBoxLogo.Location = new System.Drawing.Point(75, 83);
             this.pBoxLogo.Name = "pBoxLogo";
             this.pBoxLogo.Size = new System.Drawing.Size(273, 235);
             this.pBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,7 +93,7 @@
             // 
             this.lblConference.AutoSize = true;
             this.lblConference.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lblConference.Location = new System.Drawing.Point(75, 313);
+            this.lblConference.Location = new System.Drawing.Point(79, 356);
             this.lblConference.Name = "lblConference";
             this.lblConference.Size = new System.Drawing.Size(129, 25);
             this.lblConference.TabIndex = 2;
@@ -103,7 +103,7 @@
             // 
             this.lblWins.AutoSize = true;
             this.lblWins.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lblWins.Location = new System.Drawing.Point(75, 363);
+            this.lblWins.Location = new System.Drawing.Point(79, 406);
             this.lblWins.Name = "lblWins";
             this.lblWins.Size = new System.Drawing.Size(71, 25);
             this.lblWins.TabIndex = 3;
@@ -113,7 +113,7 @@
             // 
             this.lblLosses.AutoSize = true;
             this.lblLosses.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lblLosses.Location = new System.Drawing.Point(75, 413);
+            this.lblLosses.Location = new System.Drawing.Point(79, 456);
             this.lblLosses.Name = "lblLosses";
             this.lblLosses.Size = new System.Drawing.Size(83, 25);
             this.lblLosses.TabIndex = 4;
@@ -123,7 +123,7 @@
             // 
             this.lblTies.AutoSize = true;
             this.lblTies.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lblTies.Location = new System.Drawing.Point(75, 463);
+            this.lblTies.Location = new System.Drawing.Point(79, 506);
             this.lblTies.Name = "lblTies";
             this.lblTies.Size = new System.Drawing.Size(61, 25);
             this.lblTies.TabIndex = 5;
@@ -159,6 +159,31 @@
             this._NFL_Players__BindingNavigator.TabIndex = 6;
             this._NFL_Players__BindingNavigator.Text = "bindingNavigator1";
             // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
+            // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -192,16 +217,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -224,26 +242,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // _NFL_Players__BindingNavigatorSaveItem
             // 
@@ -270,6 +270,17 @@
             this._NFL_Players__DataGridView.Name = "_NFL_Players__DataGridView";
             this._NFL_Players__DataGridView.Size = new System.Drawing.Size(642, 456);
             this._NFL_Players__DataGridView.TabIndex = 7;
+            this._NFL_Players__DataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this._NFL_Players__DataGridView_CellClick);
+            // 
+            // lblPlayers
+            // 
+            this.lblPlayers.AutoSize = true;
+            this.lblPlayers.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayers.Location = new System.Drawing.Point(729, 72);
+            this.lblPlayers.Name = "lblPlayers";
+            this.lblPlayers.Size = new System.Drawing.Size(82, 30);
+            this.lblPlayers.TabIndex = 8;
+            this.lblPlayers.Text = "Players";
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -335,17 +346,7 @@
             this.tableAdapterManager.UpdateOrder = Sports_Project_1.sportsDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.User_TableAdapter = null;
             // 
-            // lblPlayers
-            // 
-            this.lblPlayers.AutoSize = true;
-            this.lblPlayers.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlayers.Location = new System.Drawing.Point(729, 72);
-            this.lblPlayers.Name = "lblPlayers";
-            this.lblPlayers.Size = new System.Drawing.Size(82, 30);
-            this.lblPlayers.TabIndex = 8;
-            this.lblPlayers.Text = "Players";
-            // 
-            // NFLStats
+            // NFLTeamStats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -361,7 +362,7 @@
             this.Controls.Add(this.lblConference);
             this.Controls.Add(this.butExit);
             this.Controls.Add(this.pBoxLogo);
-            this.Name = "NFLStats";
+            this.Name = "NFLTeamStats";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NFLStats";
             this.Load += new System.EventHandler(this.NFLStats_Load);

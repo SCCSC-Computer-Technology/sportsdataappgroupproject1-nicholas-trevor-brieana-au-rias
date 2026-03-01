@@ -4,3 +4,9 @@ C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-a
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\obj\Debug\NHL_Class_Library.csproj.CoreCompileInputs.cache
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\obj\Debug\NHL_Class_Library.dll
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\obj\Debug\NHL_Class_Library.pdb
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\bin\Debug\NHL_Class_Library.dll
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\bin\Debug\NHL_Class_Library.pdb
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\obj\Debug\NHL_Class_Library.csproj.AssemblyReference.cache
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\obj\Debug\NHL_Class_Library.csproj.CoreCompileInputs.cache
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\obj\Debug\NHL_Class_Library.dll
+C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\obj\Debug\NHL_Class_Library.pdb
