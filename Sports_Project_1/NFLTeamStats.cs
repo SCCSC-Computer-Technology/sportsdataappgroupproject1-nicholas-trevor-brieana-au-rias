@@ -41,5 +41,19 @@ namespace Sports_Project_1
             this.tableAdapterManager.UpdateAll(this.sportsDBDataSet);
 
         }
+
+        private void _NFL_Players__DataGridView_CellClick(object sender, DataGridViewCellEventArgs e) //takes playerid from row clicked and opens playerstats form
+        {
+            if(e.RowIndex == 0)
+            {
+                MessageBox.Show("Click a player to see their form!");
+            }
+            DataGridViewCell cell = _NFL_Players__DataGridView.Rows[e.RowIndex].Cells[0];
+            int pID = int.Parse(cell.Value.ToString());
+            NFLPlayerStats form = new NFLPlayerStats(pID, pBoxLogo.Image);
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
+        }
     }
 }
