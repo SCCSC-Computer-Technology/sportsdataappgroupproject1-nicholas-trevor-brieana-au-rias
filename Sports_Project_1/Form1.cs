@@ -60,7 +60,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -112,7 +112,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -164,7 +164,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -216,7 +216,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -268,7 +268,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -320,7 +320,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -348,8 +348,8 @@ namespace Sports_Project_1
 
             try
             {
-                int teamId = Convert.ToInt32(pbxBruins.Tag);
-                Image logo = pbxBruins.Image ?? pbxBruins.BackgroundImage; ;
+                int teamId = Convert.ToInt32(pbxAvalanche.Tag);
+                Image logo = pbxAvalanche.Image ?? pbxAvalanche.BackgroundImage; ;
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 using (SqlCommand command = new SqlCommand(query, connection))
@@ -372,7 +372,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -424,7 +424,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -476,7 +476,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -528,7 +528,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -581,7 +581,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -633,7 +633,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -685,7 +685,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -737,7 +737,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -791,7 +791,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -843,7 +843,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -894,7 +894,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -945,7 +945,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -996,7 +996,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1047,7 +1047,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1098,7 +1098,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1149,7 +1149,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1200,7 +1200,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1251,7 +1251,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1302,7 +1302,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1353,7 +1353,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1404,7 +1404,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1455,7 +1455,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1506,7 +1506,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1557,7 +1557,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1608,7 +1608,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
@@ -1659,7 +1659,7 @@ namespace Sports_Project_1
                                 Convert.ToInt32(reader["Points"])
                             );
 
-                            var form = new NHLStats(team, logo);
+                            var form = new NHLStats(team, logo, teamId);
                             this.Hide();
                             form.ShowDialog();
                             this.Show();
