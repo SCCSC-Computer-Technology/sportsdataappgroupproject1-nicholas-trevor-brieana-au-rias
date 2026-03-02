@@ -292,11 +292,6 @@ namespace Sports_Project_1
             this.BackColor = teamColor;
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void NHLPlayersForm_Load(object sender, EventArgs e)
         {
             //this line causes issues, so i commented it out.
@@ -307,6 +302,11 @@ namespace Sports_Project_1
             PictureBoxTeamLogo.SizeMode = PictureBoxSizeMode.Zoom;
 
             LoadPlayersForTeam();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

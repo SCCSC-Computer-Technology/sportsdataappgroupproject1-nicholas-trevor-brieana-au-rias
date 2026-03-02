@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NHLPlayersForm));
             System.Windows.Forms.Label jersey_NumberLabel;
             System.Windows.Forms.Label positionLabel;
             System.Windows.Forms.Label last_NameLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NHLPlayersForm));
             this.lblTeamName = new System.Windows.Forms.Label();
             this.tbTeamName = new System.Windows.Forms.TextBox();
             this.btnExit = new System.Windows.Forms.Button();
@@ -62,6 +62,39 @@
             last_NameLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxTeamLogo)).BeginInit();
             this.SuspendLayout();
+            // 
+            // jersey_NumberLabel
+            // 
+            jersey_NumberLabel.AutoSize = true;
+            jersey_NumberLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            jersey_NumberLabel.Enabled = false;
+            jersey_NumberLabel.Location = new System.Drawing.Point(406, 253);
+            jersey_NumberLabel.Name = "jersey_NumberLabel";
+            jersey_NumberLabel.Size = new System.Drawing.Size(82, 15);
+            jersey_NumberLabel.TabIndex = 49;
+            jersey_NumberLabel.Text = "Jersey Number:";
+            // 
+            // positionLabel
+            // 
+            positionLabel.AutoSize = true;
+            positionLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            positionLabel.Enabled = false;
+            positionLabel.Location = new System.Drawing.Point(629, 253);
+            positionLabel.Name = "positionLabel";
+            positionLabel.Size = new System.Drawing.Size(49, 15);
+            positionLabel.TabIndex = 47;
+            positionLabel.Text = "Position:";
+            // 
+            // last_NameLabel
+            // 
+            last_NameLabel.AutoSize = true;
+            last_NameLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            last_NameLabel.Enabled = false;
+            last_NameLabel.Location = new System.Drawing.Point(200, 253);
+            last_NameLabel.Name = "last_NameLabel";
+            last_NameLabel.Size = new System.Drawing.Size(63, 15);
+            last_NameLabel.TabIndex = 45;
+            last_NameLabel.Text = "Last Name:";
             // 
             // lblTeamName
             // 
@@ -95,6 +128,7 @@
             this.btnExit.TabIndex = 55;
             this.btnExit.Text = "Exit Player Stats";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // lblPlayerStatsTag
             // 
@@ -137,17 +171,6 @@
             this.label1.TabIndex = 51;
             this.label1.Text = resources.GetString("label1.Text");
             // 
-            // jersey_NumberLabel
-            // 
-            jersey_NumberLabel.AutoSize = true;
-            jersey_NumberLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            jersey_NumberLabel.Enabled = false;
-            jersey_NumberLabel.Location = new System.Drawing.Point(406, 253);
-            jersey_NumberLabel.Name = "jersey_NumberLabel";
-            jersey_NumberLabel.Size = new System.Drawing.Size(82, 15);
-            jersey_NumberLabel.TabIndex = 49;
-            jersey_NumberLabel.Text = "Jersey Number:";
-            // 
             // tbJerseyNumber
             // 
             this.tbJerseyNumber.Enabled = false;
@@ -156,17 +179,6 @@
             this.tbJerseyNumber.Size = new System.Drawing.Size(100, 20);
             this.tbJerseyNumber.TabIndex = 50;
             // 
-            // positionLabel
-            // 
-            positionLabel.AutoSize = true;
-            positionLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            positionLabel.Enabled = false;
-            positionLabel.Location = new System.Drawing.Point(629, 253);
-            positionLabel.Name = "positionLabel";
-            positionLabel.Size = new System.Drawing.Size(49, 15);
-            positionLabel.TabIndex = 47;
-            positionLabel.Text = "Position:";
-            // 
             // tbPosition
             // 
             this.tbPosition.Enabled = false;
@@ -174,17 +186,6 @@
             this.tbPosition.Name = "tbPosition";
             this.tbPosition.Size = new System.Drawing.Size(100, 20);
             this.tbPosition.TabIndex = 48;
-            // 
-            // last_NameLabel
-            // 
-            last_NameLabel.AutoSize = true;
-            last_NameLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            last_NameLabel.Enabled = false;
-            last_NameLabel.Location = new System.Drawing.Point(200, 253);
-            last_NameLabel.Name = "last_NameLabel";
-            last_NameLabel.Size = new System.Drawing.Size(63, 15);
-            last_NameLabel.TabIndex = 45;
-            last_NameLabel.Text = "Last Name:";
             // 
             // tbLastName
             // 
