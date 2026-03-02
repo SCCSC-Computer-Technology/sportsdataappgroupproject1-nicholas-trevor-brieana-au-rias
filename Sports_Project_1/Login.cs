@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 namespace Sports_Project_1
 {
     public partial class Login : Form
@@ -29,7 +30,7 @@ namespace Sports_Project_1
 
         private void butExit_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("***** THANK YOU *****");
+            MessageBox.Show("Come Back Soon", "Exiting Sports Application", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); ;
             this.Close();
         }
 
@@ -50,66 +51,17 @@ namespace Sports_Project_1
             }
             else
             {
-                MessageBox.Show("INVALID USERNAME OR PASSWORD !! TRY AGAIN");
+                MessageBox.Show("Please Try Again!", "INVALID USERNAME OR PASSWORD !! ", MessageBoxButtons.OK,MessageBoxIcon.Stop);
             }
 
         }
 
         private void butCreateAcc_Click(object sender, EventArgs e)
         {
-            if (!namePop)
-            {
-                lblFirstName.Visible = true;
-                txtBoxFirstName.Visible = true;
-                namePop = true;
-                MessageBox.Show("ENTER FIRST NAME TO CREATE ACCOUNT");
-            }
-            else
-            {
-                savedUsers = m.FetchUserData(filePath);//method from class library to fill users into a list with data from csv file of saved logins
-                string user = txtBoxUser.Text.Trim();
-                string pass = txtBoxPass.Text.Trim();
-                string firstName = txtBoxFirstName.Text.Trim();
+            Account_Creation account_Creation = new Account_Creation();
 
-                if (string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(pass) || string.IsNullOrWhiteSpace(firstName))
-                {
-                    MessageBox.Show("FILL ALL FIELDS !!");
-                    return;
-                }
+            account_Creation.ShowDialog();
 
-                bool userExists = savedUsers.Any(u => u.Username.Equals(user, StringComparison.OrdinalIgnoreCase)); //checks if username is taken
-
-                if (userExists)
-                {
-                    MessageBox.Show("USERNAME IS TAKEN !!");
-                    return;
-                }
-
-
-                int newUserID;
-
-                if (savedUsers.Count > 0)
-                {
-                    newUserID = savedUsers.Max(u => u.ID) + 1;
-                }
-                else
-                {
-                    newUserID = 1;
-                }
-                User newUser = new User(newUserID, user, pass, firstName);
-
-                m.AddUser(filePath, newUser); //writes to UserLogins csv file in debug folder, original UserLogins file in project does not change.
-
-                MessageBox.Show("ACCOUNT CREATED !!");
-                lblFirstName.Visible = false;
-                txtBoxFirstName.Visible = false;
-                namePop = false;
-
-                MainForm menu = new MainForm(newUser, this);
-                menu.Show();
-                this.Hide();
-
-            }
         }
 
         private void cBoxSeePass_CheckedChanged(object sender, EventArgs e)
@@ -122,6 +74,20 @@ namespace Sports_Project_1
             if (!cBoxSeePass.Checked)
             {
                 txtBoxPass.PasswordChar = '*';
+            }
+        }
+
+        private void lbExit_Click(object sender, EventArgs e)
+        {
+            DialogResult leaving = MessageBox.Show("Are you sure?", "Exiting Sports Application", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (leaving == DialogResult.OK)
+            {
+                MessageBox.Show("Come Back Soon", "Exiting Sports Application", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); ;
+                this.Close();
+            }
+            else
+            {
+                return;
             }
         }
     }

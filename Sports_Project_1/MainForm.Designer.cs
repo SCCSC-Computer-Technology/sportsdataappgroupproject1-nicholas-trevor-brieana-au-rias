@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.butNFL = new System.Windows.Forms.Button();
             this.butNHL = new System.Windows.Forms.Button();
             this.butLogout = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
+            this.lbExit = new System.Windows.Forms.Label();
+            this.ttpSports = new System.Windows.Forms.ToolTip(this.components);
             this.butFavTeams = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -44,7 +47,8 @@
             this.butNFL.Location = new System.Drawing.Point(294, 158);
             this.butNFL.Name = "butNFL";
             this.butNFL.Size = new System.Drawing.Size(242, 290);
-            this.butNFL.TabIndex = 1;
+            this.butNFL.TabIndex = 0;
+            this.ttpSports.SetToolTip(this.butNFL, "Click to View the Football Teams");
             this.butNFL.UseVisualStyleBackColor = true;
             this.butNFL.Click += new System.EventHandler(this.butNFL_Click);
             // 
@@ -57,17 +61,21 @@
             this.butNHL.Location = new System.Drawing.Point(646, 158);
             this.butNHL.Name = "butNHL";
             this.butNHL.Size = new System.Drawing.Size(242, 290);
-            this.butNHL.TabIndex = 2;
+            this.butNHL.TabIndex = 1;
+            this.ttpSports.SetToolTip(this.butNHL, "Click to view the Hockey Teams");
             this.butNHL.UseVisualStyleBackColor = true;
             this.butNHL.Click += new System.EventHandler(this.butNHL_Click);
             // 
             // butLogout
             // 
+            this.butLogout.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.butLogout.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Bold);
             this.butLogout.Location = new System.Drawing.Point(685, 486);
             this.butLogout.Name = "butLogout";
             this.butLogout.Size = new System.Drawing.Size(180, 49);
-            this.butLogout.TabIndex = 3;
-            this.butLogout.Text = "Logout";
+            this.butLogout.TabIndex = 2;
+            this.butLogout.Text = "L&ogout";
+            this.ttpSports.SetToolTip(this.butLogout, "Click to Logout out of this Account");
             this.butLogout.UseVisualStyleBackColor = true;
             this.butLogout.Click += new System.EventHandler(this.butLogout_Click);
             // 
@@ -80,6 +88,19 @@
             this.lblName.Size = new System.Drawing.Size(74, 25);
             this.lblName.TabIndex = 4;
             this.lblName.Text = "Name";
+            // 
+            // lbExit
+            // 
+            this.lbExit.AutoSize = true;
+            this.lbExit.BackColor = System.Drawing.Color.Transparent;
+            this.lbExit.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbExit.Location = new System.Drawing.Point(1092, 25);
+            this.lbExit.Name = "lbExit";
+            this.lbExit.Size = new System.Drawing.Size(36, 40);
+            this.lbExit.TabIndex = 3;
+            this.lbExit.Text = "X";
+            this.ttpSports.SetToolTip(this.lbExit, "Click to Exit");
+            this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
             // 
             // butFavTeams
             // 
@@ -97,7 +118,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sports_Project_1.Properties.Resources.login_screen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.butLogout;
             this.ClientSize = new System.Drawing.Size(1152, 644);
+            this.ControlBox = false;
+            this.Controls.Add(this.lbExit);
             this.Controls.Add(this.butFavTeams);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.butLogout);
@@ -117,6 +141,8 @@
         private System.Windows.Forms.Button butNHL;
         private System.Windows.Forms.Button butLogout;
         private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lbExit;
+        private System.Windows.Forms.ToolTip ttpSports;
         private System.Windows.Forms.Button butFavTeams;
     }
 }
