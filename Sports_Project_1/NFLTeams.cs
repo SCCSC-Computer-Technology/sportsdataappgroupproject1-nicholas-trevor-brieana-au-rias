@@ -34,22 +34,7 @@ namespace Sports_Project_1
 
         private void butExit_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Exiting....", "Exiting NFL Teams Form", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            Close();
-        }
-
-        private void lbExit_Click(object sender, EventArgs e)
-        {
-            DialogResult leaving = MessageBox.Show("Are you sure?", "Exiting NFL Teams", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (leaving == DialogResult.OK)
-            {
-                MessageBox.Show("Leaving NFL Teams", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                Close();
-            }
-            else
-            {
-                return;
-            }
+            this.Close();
         }
     }
 }
