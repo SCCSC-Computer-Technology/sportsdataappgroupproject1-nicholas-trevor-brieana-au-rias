@@ -29,7 +29,7 @@ namespace Sports_Project_1
 
         private void butLogout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Logged out ... returning to Login screen");
+            MessageBox.Show("Logging out...", "Returning to Login screen",MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
             this.Close();
             loginForm.Show();
         }
@@ -51,6 +51,20 @@ namespace Sports_Project_1
             //Opens UserFavoriteTeam form and passes the current user object
             UserFavoriteTeam fav = new UserFavoriteTeam(_currentUser);
             fav.ShowDialog();
+        }
+
+        private void lbExit_Click(object sender, EventArgs e)
+        {
+            DialogResult leaving = MessageBox.Show("Are you sure?", "Returning to Login screen", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (leaving == DialogResult.OK)
+            {
+                MessageBox.Show("Logging out...", "Returning to Login screen", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                Close();
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }
