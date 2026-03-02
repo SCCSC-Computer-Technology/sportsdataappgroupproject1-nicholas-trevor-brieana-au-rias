@@ -32,6 +32,7 @@
             this.butNHL = new System.Windows.Forms.Button();
             this.butLogout = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
+            this.butFavTeams = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // butNFL
@@ -62,7 +63,7 @@
             // 
             // butLogout
             // 
-            this.butLogout.Location = new System.Drawing.Point(514, 486);
+            this.butLogout.Location = new System.Drawing.Point(685, 486);
             this.butLogout.Name = "butLogout";
             this.butLogout.Size = new System.Drawing.Size(180, 49);
             this.butLogout.TabIndex = 3;
@@ -80,6 +81,16 @@
             this.lblName.TabIndex = 4;
             this.lblName.Text = "Name";
             // 
+            // butFavTeams
+            // 
+            this.butFavTeams.Location = new System.Drawing.Point(329, 486);
+            this.butFavTeams.Name = "butFavTeams";
+            this.butFavTeams.Size = new System.Drawing.Size(180, 49);
+            this.butFavTeams.TabIndex = 6;
+            this.butFavTeams.Text = "Edit / Select Favorite Teams";
+            this.butFavTeams.UseVisualStyleBackColor = true;
+            this.butFavTeams.Click += new System.EventHandler(this.butFavTeams_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -87,6 +98,7 @@
             this.BackgroundImage = global::Sports_Project_1.Properties.Resources.login_screen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1152, 644);
+            this.Controls.Add(this.butFavTeams);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.butLogout);
             this.Controls.Add(this.butNHL);
@@ -105,5 +117,6 @@
         private System.Windows.Forms.Button butNHL;
         private System.Windows.Forms.Button butLogout;
         private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Button butFavTeams;
     }
 }

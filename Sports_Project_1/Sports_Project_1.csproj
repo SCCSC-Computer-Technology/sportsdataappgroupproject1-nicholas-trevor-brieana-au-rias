@@ -99,6 +99,12 @@
     <Compile Include="NFLTeams.Designer.cs">
       <DependentUpon>NFLTeams.cs</DependentUpon>
     </Compile>
+    <Compile Include="NHLPlayersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NHLPlayersForm.Designer.cs">
+      <DependentUpon>NHLPlayersForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="NHLStats.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>sportsDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserFavoriteTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserFavoriteTeam.Designer.cs">
+      <DependentUpon>UserFavoriteTeam.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -130,6 +142,9 @@
     <EmbeddedResource Include="NFLTeams.resx">
       <DependentUpon>NFLTeams.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NHLPlayersForm.resx">
+      <DependentUpon>NHLPlayersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NHLStats.resx">
       <DependentUpon>NHLStats.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +158,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserFavoriteTeam.resx">
+      <DependentUpon>UserFavoriteTeam.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
