@@ -22,3 +22,9 @@ C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject
 C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.CoreCompileInputs.cache
 C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.dll
 C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.pdb
+C:\Users\mstgi\OneDrive\Documents\GitHub\NHLPlayerFormBtnFix\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\bin\Debug\SportStatLibrary.dll
+C:\Users\mstgi\OneDrive\Documents\GitHub\NHLPlayerFormBtnFix\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\bin\Debug\SportStatLibrary.pdb
+C:\Users\mstgi\OneDrive\Documents\GitHub\NHLPlayerFormBtnFix\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.AssemblyReference.cache
+C:\Users\mstgi\OneDrive\Documents\GitHub\NHLPlayerFormBtnFix\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.CoreCompileInputs.cache
+C:\Users\mstgi\OneDrive\Documents\GitHub\NHLPlayerFormBtnFix\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.dll
+C:\Users\mstgi\OneDrive\Documents\GitHub\NHLPlayerFormBtnFix\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.pdb
