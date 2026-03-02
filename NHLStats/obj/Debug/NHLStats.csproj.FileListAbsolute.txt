@@ -16,3 +16,12 @@ C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NH
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.csproj.CoreCompileInputs.cache
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.exe
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHLStats\obj\Debug\NHLStats.pdb
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\bin\Debug\NHLStats.exe.config
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\bin\Debug\NHLStats.exe
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\bin\Debug\NHLStats.pdb
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.csproj.AssemblyReference.cache
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.Properties.Resources.resources
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.csproj.GenerateResource.cache
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.csproj.CoreCompileInputs.cache
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.exe
+C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHLStats\obj\Debug\NHLStats.pdb

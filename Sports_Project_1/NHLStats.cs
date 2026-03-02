@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NHL_Class_Library;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,15 +13,18 @@ namespace Sports_Project_1
 {
     public partial class NHLStats : Form
     {
+        private int _teamId;
+
         public NHLStats()
         {
             InitializeComponent();
         }
 
-        public NHLStats(NHL_Class_Library.Team team, Image logo)
+        public NHLStats(NHL_Class_Library.Team team, Image logo, int teamId)
         {
             InitializeComponent();
-            
+            _teamId = teamId;
+
 
             lblTeam.Text = team.TeamName;
             txtConference.Text = team.Conference;
@@ -37,6 +41,12 @@ namespace Sports_Project_1
         private void pbxExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnPlayers_Click(object sender, EventArgs e)
+        {
+            NHLPlayersForm f = new NHLPlayersForm(_teamId, pbxLogo.Image, lblTeam.Text);
+            f.ShowDialog();
         }
     }
 }
