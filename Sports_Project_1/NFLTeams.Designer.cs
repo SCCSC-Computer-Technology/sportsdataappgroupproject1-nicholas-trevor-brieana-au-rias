@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.butCard = new System.Windows.Forms.Button();
             this.butFalc = new System.Windows.Forms.Button();
             this.butRavens = new System.Windows.Forms.Button();
@@ -62,8 +61,6 @@
             this.butEagles = new System.Windows.Forms.Button();
             this.butJets = new System.Windows.Forms.Button();
             this.butExit = new System.Windows.Forms.Button();
-            this.lbExit = new System.Windows.Forms.Label();
-            this.ttpSports = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // butCard
@@ -78,7 +75,6 @@
             this.butCard.Size = new System.Drawing.Size(119, 100);
             this.butCard.TabIndex = 0;
             this.butCard.Tag = "1";
-            this.ttpSports.SetToolTip(this.butCard, "Click to view Teams Stats");
             this.butCard.UseVisualStyleBackColor = false;
             this.butCard.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -94,7 +90,6 @@
             this.butFalc.Size = new System.Drawing.Size(119, 100);
             this.butFalc.TabIndex = 1;
             this.butFalc.Tag = "2";
-            this.ttpSports.SetToolTip(this.butFalc, "Click to view Teams Stats");
             this.butFalc.UseVisualStyleBackColor = false;
             this.butFalc.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -110,7 +105,6 @@
             this.butRavens.Size = new System.Drawing.Size(119, 100);
             this.butRavens.TabIndex = 2;
             this.butRavens.Tag = "3";
-            this.ttpSports.SetToolTip(this.butRavens, "Click to view Teams Stats");
             this.butRavens.UseVisualStyleBackColor = false;
             this.butRavens.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -126,7 +120,6 @@
             this.butBills.Size = new System.Drawing.Size(119, 100);
             this.butBills.TabIndex = 3;
             this.butBills.Tag = "4";
-            this.ttpSports.SetToolTip(this.butBills, "Click to view Teams Stats");
             this.butBills.UseVisualStyleBackColor = false;
             this.butBills.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -142,7 +135,6 @@
             this.butBrowns.Size = new System.Drawing.Size(119, 100);
             this.butBrowns.TabIndex = 7;
             this.butBrowns.Tag = "8";
-            this.ttpSports.SetToolTip(this.butBrowns, "Click to view Teams Stats");
             this.butBrowns.UseVisualStyleBackColor = false;
             this.butBrowns.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -158,7 +150,6 @@
             this.butBengals.Size = new System.Drawing.Size(119, 100);
             this.butBengals.TabIndex = 6;
             this.butBengals.Tag = "7";
-            this.ttpSports.SetToolTip(this.butBengals, "Click to view Teams Stats");
             this.butBengals.UseVisualStyleBackColor = false;
             this.butBengals.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -174,7 +165,6 @@
             this.butBears.Size = new System.Drawing.Size(119, 100);
             this.butBears.TabIndex = 5;
             this.butBears.Tag = "6";
-            this.ttpSports.SetToolTip(this.butBears, "Click to view Teams Stats");
             this.butBears.UseVisualStyleBackColor = false;
             this.butBears.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -190,7 +180,6 @@
             this.butPanthers.Size = new System.Drawing.Size(119, 100);
             this.butPanthers.TabIndex = 4;
             this.butPanthers.Tag = "5";
-            this.ttpSports.SetToolTip(this.butPanthers, "Click to view Teams Stats");
             this.butPanthers.UseVisualStyleBackColor = false;
             this.butPanthers.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -206,7 +195,6 @@
             this.butCheifs.Size = new System.Drawing.Size(119, 100);
             this.butCheifs.TabIndex = 15;
             this.butCheifs.Tag = "16";
-            this.ttpSports.SetToolTip(this.butCheifs, "Click to view Teams Stats");
             this.butCheifs.UseVisualStyleBackColor = false;
             this.butCheifs.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -222,7 +210,6 @@
             this.butJag.Size = new System.Drawing.Size(119, 100);
             this.butJag.TabIndex = 14;
             this.butJag.Tag = "15";
-            this.ttpSports.SetToolTip(this.butJag, "Click to view Teams Stats");
             this.butJag.UseVisualStyleBackColor = false;
             this.butJag.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -238,7 +225,6 @@
             this.butColts.Size = new System.Drawing.Size(119, 100);
             this.butColts.TabIndex = 13;
             this.butColts.Tag = "14";
-            this.ttpSports.SetToolTip(this.butColts, "Click to view Teams Stats");
             this.butColts.UseVisualStyleBackColor = false;
             this.butColts.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -254,7 +240,6 @@
             this.butTexans.Size = new System.Drawing.Size(119, 100);
             this.butTexans.TabIndex = 12;
             this.butTexans.Tag = "13";
-            this.ttpSports.SetToolTip(this.butTexans, "Click to view Teams Stats");
             this.butTexans.UseVisualStyleBackColor = false;
             this.butTexans.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -270,7 +255,6 @@
             this.butPackers.Size = new System.Drawing.Size(119, 100);
             this.butPackers.TabIndex = 11;
             this.butPackers.Tag = "12";
-            this.ttpSports.SetToolTip(this.butPackers, "Click to view Teams Stats");
             this.butPackers.UseVisualStyleBackColor = false;
             this.butPackers.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -286,7 +270,6 @@
             this.butLions.Size = new System.Drawing.Size(119, 100);
             this.butLions.TabIndex = 10;
             this.butLions.Tag = "11";
-            this.ttpSports.SetToolTip(this.butLions, "Click to view Teams Stats");
             this.butLions.UseVisualStyleBackColor = false;
             this.butLions.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -302,7 +285,6 @@
             this.butBroncos.Size = new System.Drawing.Size(119, 100);
             this.butBroncos.TabIndex = 9;
             this.butBroncos.Tag = "10";
-            this.ttpSports.SetToolTip(this.butBroncos, "Click to view Teams Stats");
             this.butBroncos.UseVisualStyleBackColor = false;
             this.butBroncos.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -318,7 +300,6 @@
             this.butCowboys.Size = new System.Drawing.Size(119, 100);
             this.butCowboys.TabIndex = 8;
             this.butCowboys.Tag = "9";
-            this.ttpSports.SetToolTip(this.butCowboys, "Click to view Teams Stats");
             this.butCowboys.UseVisualStyleBackColor = false;
             this.butCowboys.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -334,7 +315,6 @@
             this.butGiants.Size = new System.Drawing.Size(119, 100);
             this.butGiants.TabIndex = 23;
             this.butGiants.Tag = "24";
-            this.ttpSports.SetToolTip(this.butGiants, "Click to view Teams Stats");
             this.butGiants.UseVisualStyleBackColor = false;
             this.butGiants.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -350,7 +330,6 @@
             this.butSaints.Size = new System.Drawing.Size(119, 100);
             this.butSaints.TabIndex = 22;
             this.butSaints.Tag = "23";
-            this.ttpSports.SetToolTip(this.butSaints, "Click to view Teams Stats");
             this.butSaints.UseVisualStyleBackColor = false;
             this.butSaints.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -366,7 +345,6 @@
             this.butPats.Size = new System.Drawing.Size(119, 100);
             this.butPats.TabIndex = 21;
             this.butPats.Tag = "22";
-            this.ttpSports.SetToolTip(this.butPats, "Click to view Teams Stats");
             this.butPats.UseVisualStyleBackColor = false;
             this.butPats.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -382,7 +360,6 @@
             this.butVikings.Size = new System.Drawing.Size(119, 100);
             this.butVikings.TabIndex = 20;
             this.butVikings.Tag = "21";
-            this.ttpSports.SetToolTip(this.butVikings, "Click to view Teams Stats");
             this.butVikings.UseVisualStyleBackColor = false;
             this.butVikings.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -398,7 +375,6 @@
             this.butDolph.Size = new System.Drawing.Size(119, 100);
             this.butDolph.TabIndex = 19;
             this.butDolph.Tag = "20";
-            this.ttpSports.SetToolTip(this.butDolph, "Click to view Teams Stats");
             this.butDolph.UseVisualStyleBackColor = false;
             this.butDolph.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -414,7 +390,6 @@
             this.butRams.Size = new System.Drawing.Size(119, 100);
             this.butRams.TabIndex = 18;
             this.butRams.Tag = "19";
-            this.ttpSports.SetToolTip(this.butRams, "Click to view Teams Stats");
             this.butRams.UseVisualStyleBackColor = false;
             this.butRams.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -430,7 +405,6 @@
             this.butCharge.Size = new System.Drawing.Size(119, 100);
             this.butCharge.TabIndex = 17;
             this.butCharge.Tag = "18";
-            this.ttpSports.SetToolTip(this.butCharge, "Click to view Teams Stats");
             this.butCharge.UseVisualStyleBackColor = false;
             this.butCharge.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -446,7 +420,6 @@
             this.butRaid.Size = new System.Drawing.Size(119, 100);
             this.butRaid.TabIndex = 16;
             this.butRaid.Tag = "17";
-            this.ttpSports.SetToolTip(this.butRaid, "Click to view Teams Stats");
             this.butRaid.UseVisualStyleBackColor = false;
             this.butRaid.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -462,7 +435,6 @@
             this.butWash.Size = new System.Drawing.Size(119, 100);
             this.butWash.TabIndex = 31;
             this.butWash.Tag = "32";
-            this.ttpSports.SetToolTip(this.butWash, "Click to view Teams Stats");
             this.butWash.UseVisualStyleBackColor = false;
             this.butWash.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -478,7 +450,6 @@
             this.butTitans.Size = new System.Drawing.Size(119, 100);
             this.butTitans.TabIndex = 30;
             this.butTitans.Tag = "31";
-            this.ttpSports.SetToolTip(this.butTitans, "Click to view Teams Stats");
             this.butTitans.UseVisualStyleBackColor = false;
             this.butTitans.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -494,7 +465,6 @@
             this.butBucc.Size = new System.Drawing.Size(119, 100);
             this.butBucc.TabIndex = 29;
             this.butBucc.Tag = "30";
-            this.ttpSports.SetToolTip(this.butBucc, "Click to view Teams Stats");
             this.butBucc.UseVisualStyleBackColor = false;
             this.butBucc.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -510,7 +480,6 @@
             this.butSeaH.Size = new System.Drawing.Size(119, 100);
             this.butSeaH.TabIndex = 28;
             this.butSeaH.Tag = "29";
-            this.ttpSports.SetToolTip(this.butSeaH, "Click to view Teams Stats");
             this.butSeaH.UseVisualStyleBackColor = false;
             this.butSeaH.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -526,7 +495,6 @@
             this.but49.Size = new System.Drawing.Size(119, 100);
             this.but49.TabIndex = 27;
             this.but49.Tag = "28";
-            this.ttpSports.SetToolTip(this.but49, "Click to view Teams Stats");
             this.but49.UseVisualStyleBackColor = false;
             this.but49.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -542,7 +510,6 @@
             this.butSteel.Size = new System.Drawing.Size(119, 100);
             this.butSteel.TabIndex = 26;
             this.butSteel.Tag = "27";
-            this.ttpSports.SetToolTip(this.butSteel, "Click to view Teams Stats");
             this.butSteel.UseVisualStyleBackColor = false;
             this.butSteel.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -558,7 +525,6 @@
             this.butEagles.Size = new System.Drawing.Size(119, 100);
             this.butEagles.TabIndex = 25;
             this.butEagles.Tag = "26";
-            this.ttpSports.SetToolTip(this.butEagles, "Click to view Teams Stats");
             this.butEagles.UseVisualStyleBackColor = false;
             this.butEagles.Click += new System.EventHandler(this.teamButton_Click);
             // 
@@ -574,35 +540,18 @@
             this.butJets.Size = new System.Drawing.Size(119, 100);
             this.butJets.TabIndex = 24;
             this.butJets.Tag = "25";
-            this.ttpSports.SetToolTip(this.butJets, "Click to view Teams Stats");
             this.butJets.UseVisualStyleBackColor = false;
             this.butJets.Click += new System.EventHandler(this.teamButton_Click);
             // 
             // butExit
             // 
-            this.butExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.butExit.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butExit.Location = new System.Drawing.Point(12, 617);
+            this.butExit.Location = new System.Drawing.Point(89, 617);
             this.butExit.Name = "butExit";
             this.butExit.Size = new System.Drawing.Size(156, 48);
             this.butExit.TabIndex = 32;
             this.butExit.Text = "&Exit";
-            this.ttpSports.SetToolTip(this.butExit, "Click to Exit");
             this.butExit.UseVisualStyleBackColor = true;
             this.butExit.Click += new System.EventHandler(this.butExit_Click);
-            // 
-            // lbExit
-            // 
-            this.lbExit.AutoSize = true;
-            this.lbExit.BackColor = System.Drawing.Color.Transparent;
-            this.lbExit.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbExit.Location = new System.Drawing.Point(1112, 27);
-            this.lbExit.Name = "lbExit";
-            this.lbExit.Size = new System.Drawing.Size(36, 40);
-            this.lbExit.TabIndex = 33;
-            this.lbExit.Text = "X";
-            this.ttpSports.SetToolTip(this.lbExit, "Click to Exit");
-            this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
             // 
             // NFLTeams
             // 
@@ -610,10 +559,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sports_Project_1.Properties.Resources.NFL_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CancelButton = this.butExit;
             this.ClientSize = new System.Drawing.Size(1173, 677);
-            this.ControlBox = false;
-            this.Controls.Add(this.lbExit);
             this.Controls.Add(this.butExit);
             this.Controls.Add(this.butWash);
             this.Controls.Add(this.butTitans);
@@ -651,7 +597,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NFLTeams";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -690,7 +635,5 @@
         private System.Windows.Forms.Button butEagles;
         private System.Windows.Forms.Button butJets;
         private System.Windows.Forms.Button butExit;
-        private System.Windows.Forms.Label lbExit;
-        private System.Windows.Forms.ToolTip ttpSports;
     }
 }

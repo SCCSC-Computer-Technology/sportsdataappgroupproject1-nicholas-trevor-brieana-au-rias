@@ -10,12 +10,6 @@ C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\obj
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\obj\Debug\NHL_Class_Library.csproj.CoreCompileInputs.cache
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\obj\Debug\NHL_Class_Library.dll
 C:\Users\thesh\Documents\GitHub\sportsdataappgroupproject1\NHL_Class_Library\obj\Debug\NHL_Class_Library.pdb
-C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\bin\Debug\NHL_Class_Library.dll
-C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\bin\Debug\NHL_Class_Library.pdb
-C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\obj\Debug\NHL_Class_Library.csproj.AssemblyReference.cache
-C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\obj\Debug\NHL_Class_Library.csproj.CoreCompileInputs.cache
-C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\obj\Debug\NHL_Class_Library.dll
-C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\obj\Debug\NHL_Class_Library.pdb
 C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\bin\Debug\NHL_Class_Library.dll
 C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\bin\Debug\NHL_Class_Library.pdb
 C:\Users\mstgi\OneDrive\Documents\GitHub\Group Project\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\NHL_Class_Library\obj\Debug\NHL_Class_Library.csproj.AssemblyReference.cache
