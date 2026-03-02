@@ -17,13 +17,20 @@ namespace Sports_Project_1
         public Form1()
         {
             InitializeComponent();
-
-
         }
 
         private void pbxExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult leaving = MessageBox.Show("Are you sure?", "Exiting NHL Teams", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (leaving == DialogResult.OK)
+            {
+                MessageBox.Show("Leaving NHL Teams", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                Close();
+            }
+            else
+            {
+                return;
+            }
         }
 
         //Bruins Stats
@@ -1675,6 +1682,12 @@ namespace Sports_Project_1
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void buttExit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Leaving Account Creating", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            Close();
         }
     }
 }

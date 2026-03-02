@@ -10,3 +10,9 @@ C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-a
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.CoreCompileInputs.cache
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.dll
 C:\Users\briea\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.pdb
+C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\bin\Debug\SportStatLibrary.dll
+C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\bin\Debug\SportStatLibrary.pdb
+C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.AssemblyReference.cache
+C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.dll
+C:\Users\rae50\source\repos\sportsdataappgroupproject1-nicholas-trevor-brieana-au-rias\SportStatLibrary\obj\Debug\SportStatLibrary.pdb
