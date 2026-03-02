@@ -6103,12 +6103,18 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT PlayerID, [Games Played], Touchdowns, [Passing Yards], [Receiving Yards], " +
                 "RushingYards, Tackles FROM dbo.[\'NFL Player Stats$\']";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "SELECT PlayerID, [Games Played], Touchdowns, [Passing Yards], [Receiving Yards], " +
+                "RushingYards, Tackles FROM dbo.[\'NFL Player Stats$\'] WHERE PlayerID = @PlayerID";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PlayerID", global::System.Data.SqlDbType.Float, 8, global::System.Data.ParameterDirection.Input, 0, 0, "PlayerID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6130,6 +6136,42 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual sportsDBDataSet.@__NFL_Player_Stats__DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            sportsDBDataSet.@__NFL_Player_Stats__DataTable dataTable = new sportsDBDataSet.@__NFL_Player_Stats__DataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillByPlayerStats(sportsDBDataSet.@__NFL_Player_Stats__DataTable dataTable, global::System.Nullable<double> PlayerID) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((PlayerID.HasValue == true)) {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((double)(PlayerID.Value));
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
+            }
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual sportsDBDataSet.@__NFL_Player_Stats__DataTable GetDataBy(global::System.Nullable<double> PlayerID) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((PlayerID.HasValue == true)) {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((double)(PlayerID.Value));
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
+            }
             sportsDBDataSet.@__NFL_Player_Stats__DataTable dataTable = new sportsDBDataSet.@__NFL_Player_Stats__DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
@@ -6380,7 +6422,7 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[3];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT PlayerID, [First Name], [Last Name], TeamID, Position, [Jersey Number] FRO" +
@@ -6389,9 +6431,15 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
             this._commandCollection[1].CommandText = "SELECT PlayerID, [First Name], [Last Name], TeamID, Position, [Jersey Number] FRO" +
-                "M [\'NFL Players$\'] WHERE TeamID = @TeamID";
+                "M [\'NFL Players$\'] WHERE PlayerID = @PlayerID";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TeamID", global::System.Data.SqlDbType.Float, 8, global::System.Data.ParameterDirection.Input, 0, 0, "TeamID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PlayerID", global::System.Data.SqlDbType.Float, 8, global::System.Data.ParameterDirection.Input, 0, 0, "PlayerID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[2].Connection = this.Connection;
+            this._commandCollection[2].CommandText = "SELECT PlayerID, [First Name], [Last Name], TeamID, Position, [Jersey Number] FRO" +
+                "M [\'NFL Players$\'] WHERE TeamID = @TeamID";
+            this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[2].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TeamID", global::System.Data.SqlDbType.Float, 8, global::System.Data.ParameterDirection.Input, 0, 0, "TeamID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6422,8 +6470,44 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillByTeam(sportsDBDataSet.@__NFL_Players__DataTable dataTable, global::System.Nullable<double> TeamID) {
+        public virtual int FillByPlayer(sportsDBDataSet.@__NFL_Players__DataTable dataTable, global::System.Nullable<double> PlayerID) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((PlayerID.HasValue == true)) {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((double)(PlayerID.Value));
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
+            }
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual sportsDBDataSet.@__NFL_Players__DataTable GetDataBy1(global::System.Nullable<double> PlayerID) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((PlayerID.HasValue == true)) {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((double)(PlayerID.Value));
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
+            }
+            sportsDBDataSet.@__NFL_Players__DataTable dataTable = new sportsDBDataSet.@__NFL_Players__DataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillByTeam(sportsDBDataSet.@__NFL_Players__DataTable dataTable, global::System.Nullable<double> TeamID) {
+            this.Adapter.SelectCommand = this.CommandCollection[2];
             if ((TeamID.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((double)(TeamID.Value));
             }
@@ -6442,7 +6526,7 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
         public virtual sportsDBDataSet.@__NFL_Players__DataTable GetDataBy(global::System.Nullable<double> TeamID) {
-            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand = this.CommandCollection[2];
             if ((TeamID.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((double)(TeamID.Value));
             }
@@ -6692,11 +6776,17 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT TeamID, Team, Conference, Wins, Losses, Ties FROM dbo.[\'NFL Team$\']";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "SELECT TeamID, Team, Conference, Wins, Losses, Ties FROM dbo.[\'NFL Team$\'] WHERE " +
+                "TeamID = @TeamID";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TeamID", global::System.Data.SqlDbType.Float, 8, global::System.Data.ParameterDirection.Input, 0, 0, "TeamID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6718,6 +6808,42 @@ namespace Sports_Project_1.sportsDBDataSetTableAdapters {
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual sportsDBDataSet.@__NFL_Team__DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            sportsDBDataSet.@__NFL_Team__DataTable dataTable = new sportsDBDataSet.@__NFL_Team__DataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillByTeamInfo(sportsDBDataSet.@__NFL_Team__DataTable dataTable, global::System.Nullable<double> TeamID) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((TeamID.HasValue == true)) {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((double)(TeamID.Value));
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
+            }
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual sportsDBDataSet.@__NFL_Team__DataTable GetDataBy(global::System.Nullable<double> TeamID) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((TeamID.HasValue == true)) {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((double)(TeamID.Value));
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
+            }
             sportsDBDataSet.@__NFL_Team__DataTable dataTable = new sportsDBDataSet.@__NFL_Team__DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;

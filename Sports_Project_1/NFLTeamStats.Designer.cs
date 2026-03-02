@@ -38,6 +38,8 @@
             this.lblTies = new System.Windows.Forms.Label();
             this._NFL_Players__BindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this._NFL_Players__BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.sportsDBDataSet = new Sports_Project_1.sportsDBDataSet();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -50,23 +52,30 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this._NFL_Players__BindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this._NFL_Players__DataGridView = new System.Windows.Forms.DataGridView();
-            this.lblPlayers = new System.Windows.Forms.Label();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this._NFL_Players__BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sportsDBDataSet = new Sports_Project_1.sportsDBDataSet();
+            this.lblPlayers = new System.Windows.Forms.Label();
+            this.lbExit = new System.Windows.Forms.Label();
+            this._NFL_Team__BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._NFL_Players__TableAdapter = new Sports_Project_1.sportsDBDataSetTableAdapters._NFL_Players__TableAdapter();
             this.tableAdapterManager = new Sports_Project_1.sportsDBDataSetTableAdapters.TableAdapterManager();
+            this._NFL_Team__TableAdapter = new Sports_Project_1.sportsDBDataSetTableAdapters._NFL_Team__TableAdapter();
+            this.conferenceLabel1 = new System.Windows.Forms.Label();
+            this.winsLabel1 = new System.Windows.Forms.Label();
+            this.lossesLabel1 = new System.Windows.Forms.Label();
+            this.tiesLabel1 = new System.Windows.Forms.Label();
+            this.ttpSports = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pBoxLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingNavigator)).BeginInit();
             this._NFL_Players__BindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__DataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__DataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._NFL_Team__BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // pBoxLogo
@@ -81,11 +90,14 @@
             // 
             // butExit
             // 
+            this.butExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.butExit.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold);
             this.butExit.Location = new System.Drawing.Point(62, 584);
             this.butExit.Name = "butExit";
             this.butExit.Size = new System.Drawing.Size(156, 48);
-            this.butExit.TabIndex = 1;
+            this.butExit.TabIndex = 0;
             this.butExit.Text = "&Exit";
+            this.ttpSports.SetToolTip(this.butExit, "Click to Exit");
             this.butExit.UseVisualStyleBackColor = true;
             this.butExit.Click += new System.EventHandler(this.butExit_Click);
             // 
@@ -155,7 +167,7 @@
             this._NFL_Players__BindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this._NFL_Players__BindingNavigator.Name = "_NFL_Players__BindingNavigator";
             this._NFL_Players__BindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this._NFL_Players__BindingNavigator.Size = new System.Drawing.Size(1152, 25);
+            this._NFL_Players__BindingNavigator.Size = new System.Drawing.Size(1160, 25);
             this._NFL_Players__BindingNavigator.TabIndex = 6;
             this._NFL_Players__BindingNavigator.Text = "bindingNavigator1";
             // 
@@ -167,6 +179,16 @@
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // _NFL_Players__BindingSource
+            // 
+            this._NFL_Players__BindingSource.DataMember = "\'NFL Players$\'";
+            this._NFL_Players__BindingSource.DataSource = this.sportsDBDataSet;
+            // 
+            // sportsDBDataSet
+            // 
+            this.sportsDBDataSet.DataSetName = "sportsDBDataSet";
+            this.sportsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // bindingNavigatorCountItem
             // 
@@ -272,16 +294,6 @@
             this._NFL_Players__DataGridView.TabIndex = 7;
             this._NFL_Players__DataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this._NFL_Players__DataGridView_CellClick);
             // 
-            // lblPlayers
-            // 
-            this.lblPlayers.AutoSize = true;
-            this.lblPlayers.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlayers.Location = new System.Drawing.Point(729, 72);
-            this.lblPlayers.Name = "lblPlayers";
-            this.lblPlayers.Size = new System.Drawing.Size(82, 30);
-            this.lblPlayers.TabIndex = 8;
-            this.lblPlayers.Text = "Players";
-            // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "PlayerID";
@@ -318,15 +330,33 @@
             this.dataGridViewTextBoxColumn6.HeaderText = "Jersey Number";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
-            // _NFL_Players__BindingSource
+            // lblPlayers
             // 
-            this._NFL_Players__BindingSource.DataMember = "\'NFL Players$\'";
-            this._NFL_Players__BindingSource.DataSource = this.sportsDBDataSet;
+            this.lblPlayers.AutoSize = true;
+            this.lblPlayers.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayers.Location = new System.Drawing.Point(729, 72);
+            this.lblPlayers.Name = "lblPlayers";
+            this.lblPlayers.Size = new System.Drawing.Size(82, 30);
+            this.lblPlayers.TabIndex = 8;
+            this.lblPlayers.Text = "Players";
             // 
-            // sportsDBDataSet
+            // lbExit
             // 
-            this.sportsDBDataSet.DataSetName = "sportsDBDataSet";
-            this.sportsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.lbExit.AutoSize = true;
+            this.lbExit.BackColor = System.Drawing.Color.Transparent;
+            this.lbExit.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbExit.Location = new System.Drawing.Point(1104, 37);
+            this.lbExit.Name = "lbExit";
+            this.lbExit.Size = new System.Drawing.Size(36, 40);
+            this.lbExit.TabIndex = 1;
+            this.lbExit.Text = "X";
+            this.ttpSports.SetToolTip(this.lbExit, "Click to Exit");
+            this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
+            // 
+            // _NFL_Team__BindingSource
+            // 
+            this._NFL_Team__BindingSource.DataMember = "\'NFL Team$\'";
+            this._NFL_Team__BindingSource.DataSource = this.sportsDBDataSet;
             // 
             // _NFL_Players__TableAdapter
             // 
@@ -346,13 +376,64 @@
             this.tableAdapterManager.UpdateOrder = Sports_Project_1.sportsDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.User_TableAdapter = null;
             // 
+            // _NFL_Team__TableAdapter
+            // 
+            this._NFL_Team__TableAdapter.ClearBeforeFill = true;
+            // 
+            // conferenceLabel1
+            // 
+            this.conferenceLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this._NFL_Team__BindingSource, "Conference", true));
+            this.conferenceLabel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.conferenceLabel1.Location = new System.Drawing.Point(229, 356);
+            this.conferenceLabel1.Name = "conferenceLabel1";
+            this.conferenceLabel1.Size = new System.Drawing.Size(135, 23);
+            this.conferenceLabel1.TabIndex = 24;
+            this.conferenceLabel1.Text = "label1";
+            // 
+            // winsLabel1
+            // 
+            this.winsLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this._NFL_Team__BindingSource, "Wins", true));
+            this.winsLabel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.winsLabel1.Location = new System.Drawing.Point(170, 406);
+            this.winsLabel1.Name = "winsLabel1";
+            this.winsLabel1.Size = new System.Drawing.Size(135, 23);
+            this.winsLabel1.TabIndex = 25;
+            this.winsLabel1.Text = "label1";
+            // 
+            // lossesLabel1
+            // 
+            this.lossesLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this._NFL_Team__BindingSource, "Losses", true));
+            this.lossesLabel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lossesLabel1.Location = new System.Drawing.Point(177, 456);
+            this.lossesLabel1.Name = "lossesLabel1";
+            this.lossesLabel1.Size = new System.Drawing.Size(135, 23);
+            this.lossesLabel1.TabIndex = 26;
+            this.lossesLabel1.Text = "label1";
+            // 
+            // tiesLabel1
+            // 
+            this.tiesLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this._NFL_Team__BindingSource, "Ties", true));
+            this.tiesLabel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tiesLabel1.Location = new System.Drawing.Point(160, 506);
+            this.tiesLabel1.Name = "tiesLabel1";
+            this.tiesLabel1.Size = new System.Drawing.Size(135, 23);
+            this.tiesLabel1.TabIndex = 27;
+            this.tiesLabel1.Text = "label1";
+            // 
             // NFLTeamStats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sports_Project_1.Properties.Resources.NFL_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1152, 652);
+            this.CancelButton = this.butExit;
+            this.ClientSize = new System.Drawing.Size(1160, 652);
+            this.ControlBox = false;
+            this.Controls.Add(this.tiesLabel1);
+            this.Controls.Add(this.lossesLabel1);
+            this.Controls.Add(this.winsLabel1);
+            this.Controls.Add(this.conferenceLabel1);
+            this.Controls.Add(this.lbExit);
             this.Controls.Add(this.lblPlayers);
             this.Controls.Add(this._NFL_Players__DataGridView);
             this.Controls.Add(this._NFL_Players__BindingNavigator);
@@ -370,9 +451,10 @@
             ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingNavigator)).EndInit();
             this._NFL_Players__BindingNavigator.ResumeLayout(false);
             this._NFL_Players__BindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__DataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__DataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._NFL_Team__BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -411,5 +493,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.Label lblPlayers;
+        private System.Windows.Forms.BindingSource _NFL_Team__BindingSource;
+        private sportsDBDataSetTableAdapters._NFL_Team__TableAdapter _NFL_Team__TableAdapter;
+        private System.Windows.Forms.Label lbExit;
+        private System.Windows.Forms.Label conferenceLabel1;
+        private System.Windows.Forms.Label winsLabel1;
+        private System.Windows.Forms.Label lossesLabel1;
+        private System.Windows.Forms.Label tiesLabel1;
+        private System.Windows.Forms.ToolTip ttpSports;
     }
 }
