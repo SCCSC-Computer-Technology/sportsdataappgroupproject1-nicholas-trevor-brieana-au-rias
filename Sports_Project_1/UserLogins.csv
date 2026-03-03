@@ -1,3 +1,4 @@
-UserID,Username,Email,Password,First Name,FavoredNFLID,FavoredNHLID
-1,NickCM,,tesT123,Nicholas,4,9
-2,TBall,,password50,Trevor,1,6
+UserID,Username,Email,Password,First Name,FavoredNFLID,FavoredNHLID,WantsEmailUpdates
+1,NickCM,,tesT123,Nicholas,4,9,
+2,TBall,,password50,Trevor,1,6,
+3,bnhunter13,brieanahunter2006@gmail.com,password123,Brieana,3,31,
