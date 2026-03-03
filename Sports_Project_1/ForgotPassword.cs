@@ -125,7 +125,7 @@ namespace Sports_Project_1
                     smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
 
                     await smtpClient.SendMailAsync(mail);
-                    MessageBox.Show("Recovery Code was sent");
+                   
                 }
             }
         }
@@ -179,7 +179,7 @@ namespace Sports_Project_1
             {
                 m.UpdatePasswordByEmail(filePath, email, newPassword);
                 MessageBox.Show("Password Updated");
-                MessageBox.Show("Updating file:\n" + Application.StartupPath);
+                
 
                 Close();
             }
