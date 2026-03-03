@@ -26,7 +26,7 @@ namespace Sports_Project_1
         }
 
         private void butExit_Click(object sender, EventArgs e)
-        {
+        { 
             MessageBox.Show("Exit.....", "Leaving Player Stats", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             this.Close();
         }
@@ -55,6 +55,13 @@ namespace Sports_Project_1
             this._NFL_Team__TableAdapter.FillByTeamInfo(this.sportsDBDataSet.@__NFL_Team__, teamID);
 
             this._NFL_Player_Stats__TableAdapter.FillByPlayerStats(this.sportsDBDataSet.@__NFL_Player_Stats__,playerID);
+
+            DataRowView currRow = (DataRowView)_NFL_Players__BindingSource.Current;
+
+            if(currRow != null)
+            {
+                lblPName.Text = currRow["First Name"].ToString() +" "+currRow["Last Name"].ToString();
+            }
         }
 
 

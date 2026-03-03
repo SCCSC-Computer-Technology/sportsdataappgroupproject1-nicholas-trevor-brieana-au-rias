@@ -38,7 +38,7 @@ namespace SportStatLibrary
                     int.TryParse(columns[5].Trim(), out int favNFLID);
                     int.TryParse(columns[6].Trim(), out int favNHLID);
 
-                    User user = new User(id, username, password, firstName, email, favNFLID, favNHLID);
+                    User user = new User(id, username, email, password, firstName,favNFLID, favNHLID);
 
                     users.Add(user);
                 }
@@ -50,7 +50,7 @@ namespace SportStatLibrary
 
         public void AddUser(string filePath, User newUser)
         {
-            string row = $"{newUser.ID},{newUser.Username},{newUser.Password},{newUser.FirstName},{newUser.FavNFLTeamID},{newUser.FavNHLTeamID}";
+            string row = $"{newUser.ID},{newUser.Username},{newUser.Email},{newUser.Password},{newUser.FirstName},{newUser.FavNFLTeamID},{newUser.FavNHLTeamID}";
 
             File.AppendAllText(filePath, Environment.NewLine + row);
         }
