@@ -26,6 +26,7 @@ namespace Sports_Project_1
         public Login()
         {
             InitializeComponent();
+
         }
 
         private void butExit_Click(object sender, EventArgs e)
@@ -37,11 +38,12 @@ namespace Sports_Project_1
         private void butLogin_Click(object sender, EventArgs e)
         {
             savedUsers = m.FetchUserData(filePath);//method from class library to fill users into a list with data from csv file of saved logins
+
             string inputUser = txtBoxUser.Text.Trim();
             string inputPass = txtBoxPass.Text.Trim();
 
             //check if user and pass are same as any in savedUserslist and if they are assign that user
-            User foundUser = savedUsers.FirstOrDefault(u => u.Username.Equals(inputUser, StringComparison.OrdinalIgnoreCase) && u.Password == inputPass);
+            User foundUser = savedUsers.FirstOrDefault(u => u.Username.Equals(inputUser, StringComparison.OrdinalIgnoreCase) && (u.Password ?? "").Trim().Equals((inputPass ?? "").Trim(), StringComparison.Ordinal));
 
             if (foundUser != null)
             {
@@ -51,7 +53,7 @@ namespace Sports_Project_1
             }
             else
             {
-                MessageBox.Show("Please Try Again!", "INVALID USERNAME OR PASSWORD !! ", MessageBoxButtons.OK,MessageBoxIcon.Stop);
+                MessageBox.Show("Please Try Again!", "INVALID USERNAME OR PASSWORD !! ", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -89,6 +91,22 @@ namespace Sports_Project_1
             {
                 return;
             }
+        }
+
+        private void lblForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var form = new ForgotPassword();
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
+        }
+
+        private void lblForgot_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var form = new ForgotPassword();
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
         }
     }
 }

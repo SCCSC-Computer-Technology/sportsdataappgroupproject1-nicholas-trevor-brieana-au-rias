@@ -26,20 +26,21 @@ namespace Sports_Project_1
 
         private void butExit_Click(object sender, EventArgs e)
         {
-                MessageBox.Show("Leaving Account Creating", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                Close();
+            MessageBox.Show("Leaving Account Creating", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            Close();
         }
 
         private void butCreateAcc_Click(object sender, EventArgs e)
         {
             savedUsers = m.FetchUserData(filePath);//method from class library to fill users into a list with data from csv file of saved logins
             string user = txtBoxUser.Text.Trim();
+            string email = txtEmail.Text.Trim();
             string pass = txtBoxPass.Text.Trim();
             string firstName = txtBoxFirstName.Text.Trim();
 
             if (string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(pass) || string.IsNullOrWhiteSpace(firstName))
             {
-                MessageBox.Show("Missing Field!! Add all Information!", "FILL ALL FIELDS !!",MessageBoxButtons.OK,MessageBoxIcon.Stop);
+                MessageBox.Show("Missing Field!! Add all Information!", "FILL ALL FIELDS !!", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 return;
             }
 
@@ -47,8 +48,8 @@ namespace Sports_Project_1
 
             if (userExists)
             {
-                
-               DialogResult results = MessageBox.Show("Username " + user + " is taken please try again", "THIS USER IS TAKEN", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
+
+                DialogResult results = MessageBox.Show("Username " + user + " is taken please try again", "THIS USER IS TAKEN", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
                 if (results == DialogResult.Cancel)
                 {
                     DialogResult leaving = MessageBox.Show("Leaving Account Creating", "Exiting...", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
@@ -61,7 +62,7 @@ namespace Sports_Project_1
             }
 
             int newUserID;
-            
+
             if (savedUsers.Count > 0)
             {
                 newUserID = savedUsers.Max(u => u.ID) + 1;
@@ -71,14 +72,14 @@ namespace Sports_Project_1
                 newUserID = 1;
             }
 
-            User newUser = new User(newUserID, user, pass, firstName);
+            User newUser = new User(newUserID, user, email, pass, firstName);
 
             m.AddUser(filePath, newUser); //writes to UserLogins csv file in debug folder, original UserLogins file in project does not change.
 
             //Configuring MessageBox
             MessageBox.Show("You've Created A Account!", "ACCOUNT CREATED", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
-                Close();
+            Close();
 
         }
 
@@ -97,11 +98,11 @@ namespace Sports_Project_1
 
         private void lbExit_Click(object sender, EventArgs e)
         {
-            DialogResult leaving = MessageBox.Show("Are you sure?", "Exiting Account Creation",MessageBoxButtons.OKCancel,MessageBoxIcon.Question);
+            DialogResult leaving = MessageBox.Show("Are you sure?", "Exiting Account Creation", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (leaving == DialogResult.OK)
-            { 
-            MessageBox.Show("Leaving Account Creating", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-            Close();
+            {
+                MessageBox.Show("Leaving Account Creating", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                Close();
             }
             else
             {
