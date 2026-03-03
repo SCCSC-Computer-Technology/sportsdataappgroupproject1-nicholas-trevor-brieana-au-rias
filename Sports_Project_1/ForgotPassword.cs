@@ -97,6 +97,7 @@ namespace Sports_Project_1
                     txtCode.Visible = true;
                     btnSendCode.Visible = false;
                     btnSendCode.Enabled = false;
+                    btnVerify.Visible = true;
                     btnVerify.Enabled = true;
                 }
             }
@@ -149,6 +150,7 @@ namespace Sports_Project_1
                 lblConfirm.Visible = true;
                 txtConfirm.Visible = true;
                 btnUpdate.Enabled = true;
+                btnUpdate.Visible = true;
 
             }
             else
