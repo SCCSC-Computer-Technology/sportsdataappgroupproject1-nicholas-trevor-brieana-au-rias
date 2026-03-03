@@ -1,6 +1,4 @@
-﻿using NHL_Class_Library;
-using SportStatLibrary;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SportStatLibrary;
 
 namespace Sports_Project_1
 {
@@ -66,14 +65,6 @@ namespace Sports_Project_1
             {
                 return;
             }
-        }
-
-        private void pbxFavorite_Click(object sender, EventArgs e)
-        {
-            var form = new FavoriteTeams(_currentUser);
-            Hide();
-            form.ShowDialog();
-            Show();
         }
     }
 }

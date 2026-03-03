@@ -27,7 +27,7 @@ namespace SportStatLibrary
                 while (!parser.EndOfData)
                 {
                     string[] columns = parser.ReadFields();
-                    if (columns == null || columns.Length < 8) continue;
+                    if (columns == null || columns.Length < 7) continue;
 
                     int.TryParse(columns[0].Trim(), out int id);
                     string username = columns[1].Trim();
@@ -38,9 +38,7 @@ namespace SportStatLibrary
                     int.TryParse(columns[5].Trim(), out int favNFLID);
                     int.TryParse(columns[6].Trim(), out int favNHLID);
 
-                    string wantsEmailUpdates = columns[7].Trim();
-
-                    User user = new User(id, username, email, password, firstName, favNFLID, favNHLID, wantsEmailUpdates);
+                    User user = new User(id, username, email, password, firstName,favNFLID, favNHLID);
 
                     users.Add(user);
                 }
@@ -52,7 +50,7 @@ namespace SportStatLibrary
 
         public void AddUser(string filePath, User newUser)
         {
-            string row = $"{newUser.ID},{newUser.Username},{newUser.Email},{newUser.Email},{newUser.Password},{newUser.FirstName},{newUser.FavNFLTeamID},{newUser.FavNHLTeamID}, {newUser.WantsEmailUpdates}";
+            string row = $"{newUser.ID},{newUser.Username},{newUser.Email},{newUser.Password},{newUser.FirstName},{newUser.FavNFLTeamID},{newUser.FavNHLTeamID}";
 
             File.AppendAllText(filePath, Environment.NewLine + row);
         }
@@ -71,11 +69,11 @@ namespace SportStatLibrary
             {
                 if (string.IsNullOrWhiteSpace(lines[i])) continue;
                 string[] cols = lines[i].Split(',');
-                if (cols.Length < 8) continue;
+                if (cols.Length < 7) continue;
 
                 if (int.TryParse(cols[0].Trim(), out int id) && id == updatedUser.ID)
                 {
-                    lines[i] = $"{updatedUser.ID},{updatedUser.Username},{updatedUser.Email},{updatedUser.Password},{updatedUser.FirstName},{updatedUser.FavNFLTeamID},{updatedUser.FavNHLTeamID}, {updatedUser.WantsEmailUpdates}";
+                    lines[i] = $"{updatedUser.ID},{updatedUser.Username},{updatedUser.Email},{updatedUser.Password},{updatedUser.FirstName},{updatedUser.FavNFLTeamID},{updatedUser.FavNHLTeamID}";
                     updated = true;
                     break;
 
@@ -86,7 +84,6 @@ namespace SportStatLibrary
             return true;
         }
 
-        //Updates the password for the forgot password
         public void UpdatePasswordByEmail(string filePath, string email, string newPassword)
         {
             var users = FetchUserData(filePath);
@@ -101,33 +98,15 @@ namespace SportStatLibrary
 
             using (var writer = new StreamWriter(filePath, false))
             {
-                writer.WriteLine("ID,Username,Email,Password,FirstName,FavNFLTeamID,FavNHLTeamID,WantsEmailUpdates");
+                writer.WriteLine("ID,Username,Email,Password,FirstName,FavNFLTeamID,FavNHLTeamID");
                 foreach (var u in users)
                 {
-                    writer.WriteLine($"{u.ID},{u.Username},{u.Email},{u.Password},{u.FirstName},{u.FavNFLTeamID},{u.FavNHLTeamID}, {u.WantsEmailUpdates}");
+                    writer.WriteLine($"{u.ID},{u.Username},{u.Email},{u.Password},{u.FirstName},{u.FavNFLTeamID},{u.FavNHLTeamID}");
                 }
             }
         }
 
-        //Checks if the user wants a subscription
-        public bool UpdateUserSubscription(string filePath, int userId, string wantsUpdates)
-        {
-            var users = FetchUserData(filePath);
-            var user = users.FirstOrDefault(u => u.ID == userId);
-            if (user == null) return false;
 
-            user.WantsEmailUpdates = wantsUpdates;
-
-            using (var writer = new StreamWriter(filePath, false))
-            {
-                writer.WriteLine("ID,Username,Email,Password,FirstName,FavNFLTeamID,FavNHLTeamID,WantsEmailUpdates");
-                foreach (var u in users)
-                {
-                    writer.WriteLine($"{u.ID},{u.Username},{u.Email},{u.Password},{u.FirstName},{u.FavNFLTeamID},{u.FavNHLTeamID},{u.WantsEmailUpdates}");
-                }
-            }
-            return true;
-        }
 
 
     }

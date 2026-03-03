@@ -69,12 +69,6 @@
     <Compile Include="Account Creation.Designer.cs">
       <DependentUpon>Account Creation.cs</DependentUpon>
     </Compile>
-    <Compile Include="FavoriteTeams.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FavoriteTeams.Designer.cs">
-      <DependentUpon>FavoriteTeams.cs</DependentUpon>
-    </Compile>
     <Compile Include="ForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,9 +142,6 @@
     <Compile Include="UserFavoriteTeam.Designer.cs">
       <DependentUpon>UserFavoriteTeam.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FavoriteTeams.resx">
-      <DependentUpon>FavoriteTeams.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.cs</DependentUpon>
     </EmbeddedResource>

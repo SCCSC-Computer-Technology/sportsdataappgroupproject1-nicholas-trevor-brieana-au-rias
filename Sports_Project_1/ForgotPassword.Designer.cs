@@ -158,6 +158,7 @@
             this.btnVerify.TabIndex = 34;
             this.btnVerify.Text = "Verify Code";
             this.btnVerify.UseVisualStyleBackColor = false;
+            this.btnVerify.Visible = false;
             this.btnVerify.Click += new System.EventHandler(this.btnVerify_Click);
             // 
             // btnUpdate
@@ -171,6 +172,7 @@
             this.btnUpdate.TabIndex = 35;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Visible = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // cbxSee
@@ -183,7 +185,6 @@
             this.cbxSee.TabIndex = 36;
             this.cbxSee.Text = "See Password";
             this.cbxSee.UseVisualStyleBackColor = true;
-            this.cbxSee.Visible = false;
             this.cbxSee.CheckedChanged += new System.EventHandler(this.cBoxSeePass_CheckedChanged);
             // 
             // ForgotPassword
@@ -206,7 +207,6 @@
             this.Controls.Add(this.btnVerify);
             this.Controls.Add(this.btnUpdate);
             this.Name = "ForgotPassword";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ForgotPassord";
             this.ResumeLayout(false);
             this.PerformLayout();
