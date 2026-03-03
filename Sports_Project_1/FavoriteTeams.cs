@@ -25,47 +25,85 @@ namespace Sports_Project_1
         public static string filePath = Path.Combine(Application.StartupPath, "UserLogins.csv");
         private readonly Methods m = new Methods();
 
-        private static readonly Dictionary<int, string> NflLogoById = new Dictionary<int, string>
+        private static readonly Dictionary<int, Image> NflLogoById = new Dictionary<int, Image>
         {
-            { 1, "cardinals.png" },
-            { 2, "falcons.png" },
-            { 3, "Ravens.png" },
-            { 4, "bills.png" },
-            { 5, "panthers.png" },
-            { 6, "Bears.png" },
-            { 7, "bengals.png" },
-            { 8, "browns.png" },
-            { 9, "cowboys.png" },
-            { 10, "broncos.png" },
-            { 11, "lions.png" },
-            { 12, "Green Bay.png" },
-            { 13, "texans.png" },
-            { 14, "colts.png" },
-            { 15, "jaguars.png" },
-            { 16, "chiefs.png" },
-            { 17, "raiders.png" },
-            { 18, "chargers.png" },
-            { 19, "rams.png" },
-            { 20, "dolphins.png" },
-            { 21, "vikings.png" },
-            { 22, "patriots.png" },
-            { 23, "saints.png" },
-            { 24, "giants.png" },
-            { 25, "jets.png" },
-             { 26, "eagles.png" },
-            { 27, "steelers.png" },
-            { 28, "49ers.png" },
-            { 29, "seahawks.png" },
-            { 30, "buccaneers.png" },
-            { 31, "titans.png" },
-            { 32, "commanders.png" },
+            { 1, Properties.Resources.Cardinals },
+            { 2, Properties.Resources.Falcons },
+            { 3, Properties.Resources.Ravens },
+            { 4, Properties.Resources.Bills },
+            { 5, Properties.Resources.Panthers },
+            { 6, Properties.Resources.Bears },
+            { 7, Properties.Resources.Bengals },
+            { 8, Properties.Resources.Browns },
+            { 9, Properties.Resources.Cowboys },
+            { 10, Properties.Resources.Broncos },
+            { 11, Properties.Resources.Lions },
+            { 12, Properties.Resources.Green_Bay },
+            { 13, Properties.Resources.Texans },
+            { 14, Properties.Resources.Colts },
+            { 15, Properties.Resources.Jaguars },
+            { 16, Properties.Resources.Chiefs },
+            { 17, Properties.Resources.Raiders },
+            { 18, Properties.Resources.Chargers },
+            { 19, Properties.Resources.Rams },
+            { 20, Properties.Resources.Dolphins },
+            { 21, Properties.Resources.Vikings },
+            { 22, Properties.Resources.Patriots },
+            { 23, Properties.Resources.Saints },
+            { 24, Properties.Resources.Giants },
+            { 25, Properties.Resources.Jets },
+             { 26, Properties.Resources.Eagles },
+            { 27, Properties.Resources.Steelers },
+            { 28, Properties.Resources._49ers },
+            { 29, Properties.Resources.Seahawks },
+            { 30, Properties.Resources.Buccaneers },
+            { 31, Properties.Resources.Titans },
+            { 32, Properties.Resources.Commanders },
 
         };
 
+        private static readonly Dictionary<int, Image> NhlLogoById = new Dictionary<int, Image>
+        {
+            { 1, Properties.Resources._1 },
+            { 2, Properties.Resources._2 },
+            { 3, Properties.Resources._3 },
+            { 4, Properties.Resources._4 },
+            { 5, Properties.Resources._5 },
+            { 6, Properties.Resources._6 },
+            { 7, Properties.Resources._7 },
+            { 8, Properties.Resources._8 },
+            { 9, Properties.Resources._9 },
+            { 10, Properties.Resources._10 },
+            { 11, Properties.Resources._11 },
+            { 12, Properties.Resources._12 },
+            { 13, Properties.Resources._13 },
+            { 14, Properties.Resources._14 },
+            { 15, Properties.Resources._15 },
+            { 16, Properties.Resources._16 },
+            { 17, Properties.Resources._17 },
+            { 18, Properties.Resources._18 },
+            { 19, Properties.Resources._19 },
+            { 20, Properties.Resources._20 },
+            { 21, Properties.Resources._21 },
+            { 22, Properties.Resources._22 },
+            { 23, Properties.Resources._23 },
+            { 24, Properties.Resources._24 },
+            { 25, Properties.Resources._25 },
+             { 26, Properties.Resources._26 },
+            { 27, Properties.Resources._27 },
+            { 28, Properties.Resources._28 },
+            { 29, Properties.Resources._29 },
+            { 30, Properties.Resources._30 },
+            { 31, Properties.Resources._31 },
+            { 32, Properties.Resources._32 },
+
+        };
+       
+
         //private static readonly Dictionary<int, string> NhlLogoById = new Dictionary<int, string>
-       // {
-             
-    
+        // {
+
+
         //};
         public FavoriteTeams(User person)
         {
@@ -192,23 +230,18 @@ namespace Sports_Project_1
                 Tag = teamId
             };
 
-            string fileName = null;
+            Image logo = null;
 
             if (league == "NFL")
-                NflLogoById.TryGetValue(teamId, out fileName);
+                NflLogoById.TryGetValue(teamId, out logo);
             else
-                NhlLogoById.TryGetValue(teamId, out fileName);
+               NhlLogoById.TryGetValue(teamId, out logo);
 
-            if (string.IsNullOrWhiteSpace(fileName))
-            {
-                // fallback label if you don't have a mapping yet
-                fileName = $"{teamId}.png";
-            }
 
-            string logoPath = Path.Combine(Application.StartupPath, "Logos", league, fileName);
+         
 
-            if (System.IO.File.Exists(logoPath))
-                pb.Image = Image.FromFile(logoPath);
+            
+                pb.Image = logo;
 
             var lbl = new Label
             {
