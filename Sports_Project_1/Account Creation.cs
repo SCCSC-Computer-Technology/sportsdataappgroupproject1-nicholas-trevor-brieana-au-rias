@@ -72,7 +72,7 @@ namespace Sports_Project_1
                 newUserID = 1;
             }
 
-            User newUser = new User(newUserID, user, email, pass, firstName);
+            User newUser = new User(newUserID, user, email, pass, firstName, "false");
 
             m.AddUser(filePath, newUser); //writes to UserLogins csv file in debug folder, original UserLogins file in project does not change.
 

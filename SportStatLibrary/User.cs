@@ -18,7 +18,9 @@ namespace SportStatLibrary
         public int FavNHLTeamID { get; set; }
         public int FavNFLTeamID { get; set; }
 
-        public User(int iD, string username, string email,string password, string firstName)
+        public string WantsEmailUpdates { get; set; }
+
+        public User(int iD, string username, string email,string password, string firstName, string wantsEmailUpdates)
         {
             ID = iD;
             Username = username;
@@ -27,10 +29,11 @@ namespace SportStatLibrary
             FirstName = firstName;
             FavNFLTeamID = -1;
             FavNHLTeamID = -1;
+            WantsEmailUpdates = wantsEmailUpdates;
 
         }
 
-        public User(int iD, string username, string email,string password, string firstName, int favNFLTeamID, int favNHLTeamID)
+        public User(int iD, string username, string email,string password, string firstName, int favNFLTeamID, int favNHLTeamID,string wantsEmailUpdates)
         {
             ID = iD;
             Username = username;
@@ -39,7 +42,7 @@ namespace SportStatLibrary
             FirstName = firstName;
             FavNFLTeamID = favNFLTeamID;
             FavNHLTeamID = favNHLTeamID;
-
+            WantsEmailUpdates= wantsEmailUpdates;
         }
 
 
