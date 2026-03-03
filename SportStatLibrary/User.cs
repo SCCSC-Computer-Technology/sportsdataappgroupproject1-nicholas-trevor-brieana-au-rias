@@ -10,6 +10,7 @@ namespace SportStatLibrary
     {
         public int ID { get; set; }
         public string Username { get; set; }
+        public string Email { get; set; }
         public string Password { get; set; }
 
         public string FirstName { get; set; }
@@ -17,10 +18,11 @@ namespace SportStatLibrary
         public int FavNHLTeamID { get; set; }
         public int FavNFLTeamID { get; set; }
 
-        public User(int iD, string username, string password, string firstName)
+        public User(int iD, string username, string email,string password, string firstName)
         {
             ID = iD;
             Username = username;
+            Email = email;
             Password = password;
             FirstName = firstName;
             FavNFLTeamID = -1;
@@ -28,10 +30,11 @@ namespace SportStatLibrary
 
         }
 
-        public User(int iD, string username, string password, string firstName, int favNFLTeamID, int favNHLTeamID)
+        public User(int iD, string username, string email,string password, string firstName, int favNFLTeamID, int favNHLTeamID)
         {
             ID = iD;
             Username = username;
+            Email = email;
             Password = password;
             FirstName = firstName;
             FavNFLTeamID = favNFLTeamID;
