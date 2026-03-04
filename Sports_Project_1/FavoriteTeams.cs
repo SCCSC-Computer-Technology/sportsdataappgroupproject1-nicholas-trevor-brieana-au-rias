@@ -118,16 +118,7 @@ namespace Sports_Project_1
 
         private void lbExit_Click(object sender, EventArgs e)
         {
-            DialogResult leaving = MessageBox.Show("Exiting Favorite Teams Form", "Exiting....", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            if (leaving == DialogResult.OK)
-            {
-                MessageBox.Show("Leaving Favorite Teams Form", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                Close();
-            }
-            else
-            {
-                return;
-            }
+            this.Close();
         }
 
         private async void cbxReceiveUpdates_CheckedChanged(object sender, EventArgs e)
@@ -146,7 +137,7 @@ namespace Sports_Project_1
 
             if (currentUser.WantsEmailUpdates == "false")
             {
-                MessageBox.Show("Thank you for signing up for updates!","Sign Up Complete!",MessageBoxButtons.OK,MessageBoxIcon.None);
+                MessageBox.Show("Thank you for signing up for updates!");
                 currentUser.WantsEmailUpdates = "true";
 
                 //Create Subject Text
@@ -167,7 +158,7 @@ namespace Sports_Project_1
                 try
                 {
                     await SendEmailAsync(email, subject, body);
-                    MessageBox.Show("Check your email!", "Welcome email sent!",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Welcome email sent! Check your email!");
                 }
                 catch (Exception ex)
                 {
@@ -177,12 +168,12 @@ namespace Sports_Project_1
             }
             else
             {
-                MessageBox.Show("You have already set up email updates.", "Thank you for being a loyal member",MessageBoxButtons.OK,MessageBoxIcon.None);
+                MessageBox.Show("You have already set up email updates. \n Thank you for being a loyal member");
                 DialogResult result = MessageBox.Show(message, title, buttons);
 
                 if (result == DialogResult.Yes)
                 {
-                    MessageBox.Show("We are sorry to see you go","Was It Something We Said?",MessageBoxButtons.OK,MessageBoxIcon.None);
+                    MessageBox.Show("We are sorry to see you go");
                     currentUser.WantsEmailUpdates = "false";
                     m.UpdateUserSubscription(filePath,currentUser.ID, "false");
 
@@ -303,7 +294,7 @@ namespace Sports_Project_1
                 {
                     if (!reader.Read())
                     {
-                        MessageBox.Show("No team found for that TeamID.","Try Again",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                        MessageBox.Show("No team found for that TeamID.");
                         return;
                     }
 
@@ -323,12 +314,6 @@ namespace Sports_Project_1
                     Show();
                 }
             }
-        }
-
-        private void butExit_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Exiting Favorite Teams Form", "Exiting....", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            Close();
         }
     }
     

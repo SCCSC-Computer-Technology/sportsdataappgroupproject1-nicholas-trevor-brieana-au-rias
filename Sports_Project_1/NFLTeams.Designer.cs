@@ -649,6 +649,7 @@
             this.Controls.Add(this.butCard);
             this.Name = "NFLTeams";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "NFLTeams";
             this.ResumeLayout(false);
             this.PerformLayout();
 

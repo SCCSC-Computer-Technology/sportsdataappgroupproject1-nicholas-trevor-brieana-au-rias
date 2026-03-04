@@ -32,13 +32,10 @@
             this.pBoxLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTeamName = new System.Windows.Forms.Label();
-            this._NFL_Team__BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sportsDBDataSet = new Sports_Project_1.sportsDBDataSet();
             this.lblPos = new System.Windows.Forms.Label();
             this.butExit = new System.Windows.Forms.Button();
             this.panelPlayerInfo = new System.Windows.Forms.Panel();
             this.txtBoxJNum = new System.Windows.Forms.TextBox();
-            this._NFL_Players__BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.txtBoxPos = new System.Windows.Forms.TextBox();
             this.txtLName = new System.Windows.Forms.TextBox();
             this.txtBoxFName = new System.Windows.Forms.TextBox();
@@ -54,7 +51,6 @@
             this.lblTackles = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtBoxGP = new System.Windows.Forms.TextBox();
-            this._NFL_Player_Stats__BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.txtBoxReceivingYards = new System.Windows.Forms.TextBox();
             this.txtBoxTDs = new System.Windows.Forms.TextBox();
             this.txtBoxRushingYards = new System.Windows.Forms.TextBox();
@@ -62,18 +58,22 @@
             this.txtBoxTackles = new System.Windows.Forms.TextBox();
             this.lbExit = new System.Windows.Forms.Label();
             this.ttpSports = new System.Windows.Forms.ToolTip(this.components);
+            this._NFL_Player_Stats__BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.sportsDBDataSet = new Sports_Project_1.sportsDBDataSet();
+            this._NFL_Players__BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._NFL_Team__BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._NFL_Player_Stats__TableAdapter = new Sports_Project_1.sportsDBDataSetTableAdapters._NFL_Player_Stats__TableAdapter();
             this._NFL_Players__TableAdapter = new Sports_Project_1.sportsDBDataSetTableAdapters._NFL_Players__TableAdapter();
             this._NFL_Team__TableAdapter = new Sports_Project_1.sportsDBDataSetTableAdapters._NFL_Team__TableAdapter();
             this.tableAdapterManager = new Sports_Project_1.sportsDBDataSetTableAdapters.TableAdapterManager();
             this.lblPName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._NFL_Team__BindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).BeginInit();
             this.panelPlayerInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingSource)).BeginInit();
             this.panelPlayerInfoBorder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._NFL_Player_Stats__BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._NFL_Team__BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // pBoxLogo
@@ -111,16 +111,6 @@
             this.lblTeamName.Size = new System.Drawing.Size(179, 37);
             this.lblTeamName.TabIndex = 3;
             this.lblTeamName.Text = "TEAM NAME";
-            // 
-            // _NFL_Team__BindingSource
-            // 
-            this._NFL_Team__BindingSource.DataMember = "\'NFL Team$\'";
-            this._NFL_Team__BindingSource.DataSource = this.sportsDBDataSet;
-            // 
-            // sportsDBDataSet
-            // 
-            this.sportsDBDataSet.DataSetName = "sportsDBDataSet";
-            this.sportsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // lblPos
             // 
@@ -174,11 +164,6 @@
             this.txtBoxJNum.Name = "txtBoxJNum";
             this.txtBoxJNum.Size = new System.Drawing.Size(89, 33);
             this.txtBoxJNum.TabIndex = 17;
-            // 
-            // _NFL_Players__BindingSource
-            // 
-            this._NFL_Players__BindingSource.DataMember = "\'NFL Players$\'";
-            this._NFL_Players__BindingSource.DataSource = this.sportsDBDataSet;
             // 
             // txtBoxPos
             // 
@@ -348,11 +333,6 @@
             this.txtBoxGP.Size = new System.Drawing.Size(114, 33);
             this.txtBoxGP.TabIndex = 18;
             // 
-            // _NFL_Player_Stats__BindingSource
-            // 
-            this._NFL_Player_Stats__BindingSource.DataMember = "\'NFL Player Stats$\'";
-            this._NFL_Player_Stats__BindingSource.DataSource = this.sportsDBDataSet;
-            // 
             // txtBoxReceivingYards
             // 
             this.txtBoxReceivingYards.DataBindings.Add(new System.Windows.Forms.Binding("Text", this._NFL_Player_Stats__BindingSource, "Receiving Yards", true));
@@ -415,6 +395,26 @@
             this.lbExit.Text = "X";
             this.ttpSports.SetToolTip(this.lbExit, "Click to Exit");
             this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
+            // 
+            // _NFL_Player_Stats__BindingSource
+            // 
+            this._NFL_Player_Stats__BindingSource.DataMember = "\'NFL Player Stats$\'";
+            this._NFL_Player_Stats__BindingSource.DataSource = this.sportsDBDataSet;
+            // 
+            // sportsDBDataSet
+            // 
+            this.sportsDBDataSet.DataSetName = "sportsDBDataSet";
+            this.sportsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // _NFL_Players__BindingSource
+            // 
+            this._NFL_Players__BindingSource.DataMember = "\'NFL Players$\'";
+            this._NFL_Players__BindingSource.DataSource = this.sportsDBDataSet;
+            // 
+            // _NFL_Team__BindingSource
+            // 
+            this._NFL_Team__BindingSource.DataMember = "\'NFL Team$\'";
+            this._NFL_Team__BindingSource.DataSource = this.sportsDBDataSet;
             // 
             // _NFL_Player_Stats__TableAdapter
             // 
@@ -487,15 +487,16 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "NFLPlayerStats";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "b";
             this.Load += new System.EventHandler(this.NFLPlayerStats_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pBoxLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._NFL_Team__BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).EndInit();
             this.panelPlayerInfo.ResumeLayout(false);
             this.panelPlayerInfo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingSource)).EndInit();
             this.panelPlayerInfoBorder.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this._NFL_Player_Stats__BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._NFL_Team__BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -138,8 +138,8 @@ namespace Sports_Project_1
 
             if (userInput == fourDigitNumber)
             {
-                DialogResult results = MessageBox.Show("You can now set a new password.", "CODE VERIFIED!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                
+                MessageBox.Show("Code verified! You can now set a new password.");
+
                 cbxSee.Visible = true;
                 btnVerify.Visible = false;
                 lblCode.Visible = false;
@@ -155,7 +155,7 @@ namespace Sports_Project_1
             }
             else
             {
-               MessageBox.Show("Invalid code try again.", "VERIFICATION FAILED!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Invalid code.");
                 return;
             }
         }
@@ -171,14 +171,15 @@ namespace Sports_Project_1
 
             if (newPassword != confirm)
             {
-                MessageBox.Show("These passwords do not match please try again!","ERROR!",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Passwords do not match.");
                 return;
             }
 
             try
             {
                 m.UpdatePasswordByEmail(filePath, email, newPassword);
-                MessageBox.Show("Password Updated!","SUCCESS",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                MessageBox.Show("Password Updated");
+                
 
                 Close();
             }
@@ -204,24 +205,6 @@ namespace Sports_Project_1
             }
         }
 
-        private void lbExit_Click(object sender, EventArgs e)
-        {
-            DialogResult leaving = MessageBox.Show("Are you sure?", "Exiting Password Recovery", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (leaving == DialogResult.OK)
-            {
-                MessageBox.Show("Leaving Password Recovery", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                Close();
-            }
-            else
-            {
-                return;
-            }
-        }
 
-        private void butExit_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Leaving Password Recovery", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-            Close();
-        }
     }
 }

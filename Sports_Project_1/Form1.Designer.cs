@@ -657,6 +657,7 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pbxCapitals)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxWinnipeg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxKnights)).EndInit();

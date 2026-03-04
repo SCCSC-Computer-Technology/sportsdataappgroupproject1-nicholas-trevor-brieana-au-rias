@@ -445,8 +445,8 @@
             this.Controls.Add(this.pBoxLogo);
             this.Name = "NFLTeamStats";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "NFLStats";
             this.Load += new System.EventHandler(this.NFLStats_Load);
-            this.Shown += new System.EventHandler(this.NFLTeamStats_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pBoxLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._NFL_Players__BindingNavigator)).EndInit();
             this._NFL_Players__BindingNavigator.ResumeLayout(false);
