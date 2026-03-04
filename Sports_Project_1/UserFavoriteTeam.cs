@@ -152,16 +152,16 @@ namespace Sports_Project_1
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Leaving Favorites Teams Selecter", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            Close();
+            this.Close();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(_filePath);
 
             if (cmbNFLTeams.SelectedItem == null || cmbNHLTeams.SelectedItem == null)
             {
-                MessageBox.Show("Please select an option for both teams.","Select a team from both!", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("Please select an option for both teams.");
                 return;
             }
 
@@ -179,26 +179,12 @@ namespace Sports_Project_1
             if (ok)
             {
 
-                MessageBox.Show("Favorites updated successfully","SUCCESS", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("Favorites updated successfully");
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Could not update the user. Make sure the user ID exists in the CSV file!","BAD INFO",MessageBoxButtons.OK,MessageBoxIcon.None);
-            }
-        }
-
-        private void lbExit_Click(object sender, EventArgs e)
-        {
-            DialogResult leaving = MessageBox.Show("Are you sure?", "Exiting Favorites Teams Selecter", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (leaving == DialogResult.OK)
-            {
-                MessageBox.Show("Leaving Favorites Teams Selecter", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                Close();
-            }
-            else
-            {
-                return;
+                MessageBox.Show("Could not update the user. Make sure the user ID exists in the CSV file!");
             }
         }
     }

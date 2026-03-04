@@ -48,19 +48,16 @@ namespace Sports_Project_1
 
         private void _NFL_Players__DataGridView_CellClick(object sender, DataGridViewCellEventArgs e) //takes playerid from row clicked and opens playerstats form
         {
-            try
+            if(e.RowIndex == 0)
             {
-                DataGridViewCell cell = _NFL_Players__DataGridView.Rows[e.RowIndex].Cells[0];
-                int pID = int.Parse(cell.Value.ToString());
-                NFLPlayerStats form = new NFLPlayerStats(pID, pBoxLogo.Image, teamID);
-                this.Hide();
-                form.ShowDialog();
-                this.Show();
+                MessageBox.Show("See their form!", "Click a Player",MessageBoxButtons.OK,MessageBoxIcon.None);
             }
-            catch 
-            {
-                return;
-            }
+            DataGridViewCell cell = _NFL_Players__DataGridView.Rows[e.RowIndex].Cells[0];
+            int pID = int.Parse(cell.Value.ToString());
+            NFLPlayerStats form = new NFLPlayerStats(pID, pBoxLogo.Image,teamID);
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
         }
 
         private void lbExit_Click(object sender, EventArgs e)
@@ -81,14 +78,9 @@ namespace Sports_Project_1
             }
             catch (Exception bad)
             {
-                MessageBox.Show("So this happened..." + bad, "Uh Oh", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("So thing bad happened..." + bad, "Uh Oh", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-        }
-
-        private void NFLTeamStats_Shown(object sender, EventArgs e)
-        {
-            MessageBox.Show("See their form!", "Click a Player", MessageBoxButtons.OK, MessageBoxIcon.None);
         }
     }
 }

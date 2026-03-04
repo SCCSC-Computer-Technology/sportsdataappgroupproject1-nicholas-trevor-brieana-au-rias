@@ -45,18 +45,20 @@
             // txtBoxUser
             // 
             this.txtBoxUser.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxUser.Location = new System.Drawing.Point(537, 198);
+            this.txtBoxUser.Location = new System.Drawing.Point(1074, 381);
+            this.txtBoxUser.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtBoxUser.Name = "txtBoxUser";
-            this.txtBoxUser.Size = new System.Drawing.Size(225, 33);
+            this.txtBoxUser.Size = new System.Drawing.Size(446, 58);
             this.txtBoxUser.TabIndex = 0;
             // 
             // lblUser
             // 
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(350, 198);
+            this.lblUser.Location = new System.Drawing.Point(700, 381);
+            this.lblUser.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(153, 37);
+            this.lblUser.Size = new System.Drawing.Size(298, 72);
             this.lblUser.TabIndex = 1;
             this.lblUser.Text = "Username:";
             // 
@@ -64,27 +66,30 @@
             // 
             this.lblPass.AutoSize = true;
             this.lblPass.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPass.Location = new System.Drawing.Point(350, 262);
+            this.lblPass.Location = new System.Drawing.Point(700, 504);
+            this.lblPass.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(146, 37);
+            this.lblPass.Size = new System.Drawing.Size(284, 72);
             this.lblPass.TabIndex = 3;
             this.lblPass.Text = "Password:";
             // 
             // txtBoxPass
             // 
             this.txtBoxPass.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.txtBoxPass.Location = new System.Drawing.Point(537, 266);
+            this.txtBoxPass.Location = new System.Drawing.Point(1074, 512);
+            this.txtBoxPass.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtBoxPass.Name = "txtBoxPass";
             this.txtBoxPass.PasswordChar = '*';
-            this.txtBoxPass.Size = new System.Drawing.Size(225, 33);
+            this.txtBoxPass.Size = new System.Drawing.Size(446, 58);
             this.txtBoxPass.TabIndex = 1;
             // 
             // butLogin
             // 
             this.butLogin.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butLogin.Location = new System.Drawing.Point(357, 372);
+            this.butLogin.Location = new System.Drawing.Point(714, 715);
+            this.butLogin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.butLogin.Name = "butLogin";
-            this.butLogin.Size = new System.Drawing.Size(122, 69);
+            this.butLogin.Size = new System.Drawing.Size(244, 133);
             this.butLogin.TabIndex = 2;
             this.butLogin.Text = "&Login";
             this.ttpSports.SetToolTip(this.butLogin, "Click to Login");
@@ -94,9 +99,10 @@
             // butCreateAcc
             // 
             this.butCreateAcc.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold);
-            this.butCreateAcc.Location = new System.Drawing.Point(753, 372);
+            this.butCreateAcc.Location = new System.Drawing.Point(1506, 715);
+            this.butCreateAcc.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.butCreateAcc.Name = "butCreateAcc";
-            this.butCreateAcc.Size = new System.Drawing.Size(122, 69);
+            this.butCreateAcc.Size = new System.Drawing.Size(244, 133);
             this.butCreateAcc.TabIndex = 4;
             this.butCreateAcc.Text = "&Create Account";
             this.ttpSports.SetToolTip(this.butCreateAcc, "Click to Create an Account");
@@ -107,9 +113,10 @@
             // 
             this.butExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.butExit.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold);
-            this.butExit.Location = new System.Drawing.Point(563, 441);
+            this.butExit.Location = new System.Drawing.Point(1126, 848);
+            this.butExit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.butExit.Name = "butExit";
-            this.butExit.Size = new System.Drawing.Size(122, 69);
+            this.butExit.Size = new System.Drawing.Size(244, 133);
             this.butExit.TabIndex = 3;
             this.butExit.Text = "&Exit";
             this.butExit.UseVisualStyleBackColor = true;
@@ -119,9 +126,10 @@
             // 
             this.cBoxSeePass.AutoSize = true;
             this.cBoxSeePass.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.cBoxSeePass.Location = new System.Drawing.Point(806, 276);
+            this.cBoxSeePass.Location = new System.Drawing.Point(1612, 531);
+            this.cBoxSeePass.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cBoxSeePass.Name = "cBoxSeePass";
-            this.cBoxSeePass.Size = new System.Drawing.Size(149, 29);
+            this.cBoxSeePass.Size = new System.Drawing.Size(293, 55);
             this.cBoxSeePass.TabIndex = 5;
             this.cBoxSeePass.Text = "&see password";
             this.ttpSports.SetToolTip(this.cBoxSeePass, "Click to See/Hide Your Password");
@@ -133,9 +141,10 @@
             this.lbExit.AutoSize = true;
             this.lbExit.BackColor = System.Drawing.Color.Transparent;
             this.lbExit.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbExit.Location = new System.Drawing.Point(1104, 22);
+            this.lbExit.Location = new System.Drawing.Point(2208, 42);
+            this.lbExit.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbExit.Name = "lbExit";
-            this.lbExit.Size = new System.Drawing.Size(36, 40);
+            this.lbExit.Size = new System.Drawing.Size(71, 77);
             this.lbExit.TabIndex = 35;
             this.lbExit.Text = "X";
             this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
@@ -143,10 +152,9 @@
             // lblForgot
             // 
             this.lblForgot.AutoSize = true;
-            this.lblForgot.Location = new System.Drawing.Point(962, 293);
-            this.lblForgot.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblForgot.Location = new System.Drawing.Point(1924, 564);
             this.lblForgot.Name = "lblForgot";
-            this.lblForgot.Size = new System.Drawing.Size(92, 13);
+            this.lblForgot.Size = new System.Drawing.Size(186, 25);
             this.lblForgot.TabIndex = 36;
             this.lblForgot.TabStop = true;
             this.lblForgot.Text = "Forgot Password?";
@@ -155,12 +163,12 @@
             // Login
             // 
             this.AcceptButton = this.butLogin;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sports_Project_1.Properties.Resources.login_screen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.butExit;
-            this.ClientSize = new System.Drawing.Size(1152, 552);
+            this.ClientSize = new System.Drawing.Size(2304, 1238);
             this.ControlBox = false;
             this.Controls.Add(this.lblForgot);
             this.Controls.Add(this.lbExit);
@@ -172,11 +180,13 @@
             this.Controls.Add(this.txtBoxPass);
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.txtBoxUser);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
