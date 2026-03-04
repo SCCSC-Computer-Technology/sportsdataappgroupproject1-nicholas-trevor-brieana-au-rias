@@ -306,7 +306,22 @@ namespace Sports_Project_1
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Leaving NHL Player Stats", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             this.Close();
+        }
+
+        private void lbExit_Click(object sender, EventArgs e)
+        {
+            DialogResult leaving = MessageBox.Show("Are you sure?", "Leaving NHL Player Stats", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (leaving == DialogResult.OK)
+            {
+                MessageBox.Show("Leaving NHL Player Stats", "Exiting...", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                this.Close();
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }

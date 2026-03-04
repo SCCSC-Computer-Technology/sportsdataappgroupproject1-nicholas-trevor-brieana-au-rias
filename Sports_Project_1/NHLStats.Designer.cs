@@ -52,20 +52,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxExit)).BeginInit();
             this.SuspendLayout();
             // 
-            // pbxExit
-            // 
-            this.pbxExit.BackColor = System.Drawing.Color.Transparent;
-            this.pbxExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxExit.BackgroundImage")));
-            this.pbxExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pbxExit.Location = new System.Drawing.Point(367, -2);
-            this.pbxExit.Margin = new System.Windows.Forms.Padding(2);
-            this.pbxExit.Name = "pbxExit";
-            this.pbxExit.Size = new System.Drawing.Size(32, 34);
-            this.pbxExit.TabIndex = 33;
-            this.pbxExit.TabStop = false;
-            this.pbxExit.Tag = "2";
-            this.pbxExit.Click += new System.EventHandler(this.pbxExit_Click);
-            // 
             // btnPlayers
             // 
             this.btnPlayers.BackColor = System.Drawing.Color.AliceBlue;
@@ -85,66 +71,66 @@
             // 
             this.txtOT.BackColor = System.Drawing.Color.AliceBlue;
             this.txtOT.Enabled = false;
-            this.txtOT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.txtOT.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.txtOT.Location = new System.Drawing.Point(991, 319);
             this.txtOT.Margin = new System.Windows.Forms.Padding(2);
             this.txtOT.Name = "txtOT";
-            this.txtOT.Size = new System.Drawing.Size(62, 29);
+            this.txtOT.Size = new System.Drawing.Size(62, 27);
             this.txtOT.TabIndex = 5;
             // 
             // txtTies
             // 
             this.txtTies.BackColor = System.Drawing.Color.AliceBlue;
             this.txtTies.Enabled = false;
-            this.txtTies.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.txtTies.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.txtTies.Location = new System.Drawing.Point(853, 196);
             this.txtTies.Margin = new System.Windows.Forms.Padding(2);
             this.txtTies.Name = "txtTies";
-            this.txtTies.Size = new System.Drawing.Size(62, 29);
+            this.txtTies.Size = new System.Drawing.Size(62, 27);
             this.txtTies.TabIndex = 3;
             // 
             // txtLosses
             // 
             this.txtLosses.BackColor = System.Drawing.Color.AliceBlue;
             this.txtLosses.Enabled = false;
-            this.txtLosses.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.txtLosses.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.txtLosses.Location = new System.Drawing.Point(502, 320);
             this.txtLosses.Margin = new System.Windows.Forms.Padding(2);
             this.txtLosses.Name = "txtLosses";
-            this.txtLosses.Size = new System.Drawing.Size(62, 29);
+            this.txtLosses.Size = new System.Drawing.Size(62, 27);
             this.txtLosses.TabIndex = 2;
             // 
             // txtWins
             // 
             this.txtWins.BackColor = System.Drawing.Color.AliceBlue;
             this.txtWins.Enabled = false;
-            this.txtWins.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.txtWins.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.txtWins.Location = new System.Drawing.Point(487, 261);
             this.txtWins.Margin = new System.Windows.Forms.Padding(2);
             this.txtWins.Name = "txtWins";
-            this.txtWins.Size = new System.Drawing.Size(62, 29);
+            this.txtWins.Size = new System.Drawing.Size(62, 27);
             this.txtWins.TabIndex = 1;
             // 
             // txtConference
             // 
             this.txtConference.BackColor = System.Drawing.Color.AliceBlue;
             this.txtConference.Enabled = false;
-            this.txtConference.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConference.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConference.Location = new System.Drawing.Point(550, 203);
             this.txtConference.Margin = new System.Windows.Forms.Padding(2);
             this.txtConference.Name = "txtConference";
-            this.txtConference.Size = new System.Drawing.Size(126, 29);
+            this.txtConference.Size = new System.Drawing.Size(126, 27);
             this.txtConference.TabIndex = 0;
             // 
             // txtPoints
             // 
             this.txtPoints.BackColor = System.Drawing.Color.AliceBlue;
             this.txtPoints.Enabled = false;
-            this.txtPoints.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.txtPoints.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.txtPoints.Location = new System.Drawing.Point(876, 253);
             this.txtPoints.Margin = new System.Windows.Forms.Padding(2);
             this.txtPoints.Name = "txtPoints";
-            this.txtPoints.Size = new System.Drawing.Size(74, 29);
+            this.txtPoints.Size = new System.Drawing.Size(74, 27);
             this.txtPoints.TabIndex = 4;
             // 
             // lblOT
@@ -222,14 +208,15 @@
             // lblTeam
             // 
             this.lblTeam.BackColor = System.Drawing.Color.Transparent;
-            this.lblTeam.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblTeam.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeam.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblTeam.Location = new System.Drawing.Point(606, 83);
+            this.lblTeam.Location = new System.Drawing.Point(526, 83);
             this.lblTeam.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTeam.Name = "lblTeam";
-            this.lblTeam.Size = new System.Drawing.Size(213, 29);
+            this.lblTeam.Size = new System.Drawing.Size(424, 58);
             this.lblTeam.TabIndex = 19;
             this.lblTeam.Text = "lblTeam";
+            this.lblTeam.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pbxLogo
             // 
@@ -296,10 +283,8 @@
             this.Controls.Add(this.lblTeam);
             this.Controls.Add(this.pbxLogo);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "NHLStats";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NHLStats";
             ((System.ComponentModel.ISupportInitialize)(this.pbxLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxExit)).EndInit();
             this.ResumeLayout(false);
