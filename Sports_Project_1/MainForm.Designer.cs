@@ -47,10 +47,9 @@
             this.butNFL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.butNFL.FlatAppearance.BorderSize = 0;
             this.butNFL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butNFL.Location = new System.Drawing.Point(588, 304);
-            this.butNFL.Margin = new System.Windows.Forms.Padding(6);
+            this.butNFL.Location = new System.Drawing.Point(294, 158);
             this.butNFL.Name = "butNFL";
-            this.butNFL.Size = new System.Drawing.Size(484, 558);
+            this.butNFL.Size = new System.Drawing.Size(242, 290);
             this.butNFL.TabIndex = 0;
             this.ttpSports.SetToolTip(this.butNFL, "Click to View the Football Teams");
             this.butNFL.UseVisualStyleBackColor = true;
@@ -62,10 +61,9 @@
             this.butNHL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.butNHL.FlatAppearance.BorderSize = 0;
             this.butNHL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butNHL.Location = new System.Drawing.Point(1292, 304);
-            this.butNHL.Margin = new System.Windows.Forms.Padding(6);
+            this.butNHL.Location = new System.Drawing.Point(646, 158);
             this.butNHL.Name = "butNHL";
-            this.butNHL.Size = new System.Drawing.Size(484, 558);
+            this.butNHL.Size = new System.Drawing.Size(242, 290);
             this.butNHL.TabIndex = 1;
             this.ttpSports.SetToolTip(this.butNHL, "Click to view the Hockey Teams");
             this.butNHL.UseVisualStyleBackColor = true;
@@ -75,10 +73,9 @@
             // 
             this.butLogout.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.butLogout.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Bold);
-            this.butLogout.Location = new System.Drawing.Point(1370, 935);
-            this.butLogout.Margin = new System.Windows.Forms.Padding(6);
+            this.butLogout.Location = new System.Drawing.Point(685, 486);
             this.butLogout.Name = "butLogout";
-            this.butLogout.Size = new System.Drawing.Size(360, 94);
+            this.butLogout.Size = new System.Drawing.Size(180, 49);
             this.butLogout.TabIndex = 2;
             this.butLogout.Text = "L&ogout";
             this.ttpSports.SetToolTip(this.butLogout, "Click to Logout out of this Account");
@@ -89,10 +86,9 @@
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Bold);
-            this.lblName.Location = new System.Drawing.Point(942, 188);
-            this.lblName.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblName.Location = new System.Drawing.Point(471, 98);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(145, 52);
+            this.lblName.Size = new System.Drawing.Size(74, 25);
             this.lblName.TabIndex = 4;
             this.lblName.Text = "Name";
             // 
@@ -101,10 +97,9 @@
             this.lbExit.AutoSize = true;
             this.lbExit.BackColor = System.Drawing.Color.Transparent;
             this.lbExit.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbExit.Location = new System.Drawing.Point(2184, 48);
-            this.lbExit.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lbExit.Location = new System.Drawing.Point(1092, 25);
             this.lbExit.Name = "lbExit";
-            this.lbExit.Size = new System.Drawing.Size(71, 77);
+            this.lbExit.Size = new System.Drawing.Size(36, 40);
             this.lbExit.TabIndex = 3;
             this.lbExit.Text = "X";
             this.ttpSports.SetToolTip(this.lbExit, "Click to Exit");
@@ -112,12 +107,13 @@
             // 
             // butFavTeams
             // 
-            this.butFavTeams.Location = new System.Drawing.Point(658, 935);
-            this.butFavTeams.Margin = new System.Windows.Forms.Padding(6);
+            this.butFavTeams.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Bold);
+            this.butFavTeams.Location = new System.Drawing.Point(242, 491);
             this.butFavTeams.Name = "butFavTeams";
-            this.butFavTeams.Size = new System.Drawing.Size(360, 94);
+            this.butFavTeams.Size = new System.Drawing.Size(339, 49);
             this.butFavTeams.TabIndex = 6;
             this.butFavTeams.Text = "Edit / Select Favorite Teams";
+            this.ttpSports.SetToolTip(this.butFavTeams, "Click to Select Favorite Teams");
             this.butFavTeams.UseVisualStyleBackColor = true;
             this.butFavTeams.Click += new System.EventHandler(this.butFavTeams_Click);
             // 
@@ -126,21 +122,23 @@
             this.pbxFavorite.BackColor = System.Drawing.Color.Transparent;
             this.pbxFavorite.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxFavorite.BackgroundImage")));
             this.pbxFavorite.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pbxFavorite.Location = new System.Drawing.Point(2111, 12);
+            this.pbxFavorite.Location = new System.Drawing.Point(11, 11);
+            this.pbxFavorite.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbxFavorite.Name = "pbxFavorite";
-            this.pbxFavorite.Size = new System.Drawing.Size(82, 138);
+            this.pbxFavorite.Size = new System.Drawing.Size(41, 72);
             this.pbxFavorite.TabIndex = 7;
             this.pbxFavorite.TabStop = false;
+            this.ttpSports.SetToolTip(this.pbxFavorite, "Click to view favorite teams");
             this.pbxFavorite.Click += new System.EventHandler(this.pbxFavorite_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sports_Project_1.Properties.Resources.login_screen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.butLogout;
-            this.ClientSize = new System.Drawing.Size(2304, 1238);
+            this.ClientSize = new System.Drawing.Size(1152, 552);
             this.ControlBox = false;
             this.Controls.Add(this.pbxFavorite);
             this.Controls.Add(this.lbExit);
@@ -149,10 +147,8 @@
             this.Controls.Add(this.butLogout);
             this.Controls.Add(this.butNHL);
             this.Controls.Add(this.butNFL);
-            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm";
             ((System.ComponentModel.ISupportInitialize)(this.pbxFavorite)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

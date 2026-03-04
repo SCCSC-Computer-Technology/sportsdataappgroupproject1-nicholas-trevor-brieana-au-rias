@@ -38,7 +38,7 @@ namespace Sports_Project_1
             string pass = txtBoxPass.Text.Trim();
             string firstName = txtBoxFirstName.Text.Trim();
 
-            if (string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(pass) || string.IsNullOrWhiteSpace(firstName))
+            if (string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(pass) || string.IsNullOrWhiteSpace(firstName) || string.IsNullOrWhiteSpace(email))
             {
                 MessageBox.Show("Missing Field!! Add all Information!", "FILL ALL FIELDS !!", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 return;
