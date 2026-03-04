@@ -52,7 +52,7 @@ namespace SportStatLibrary
 
         public void AddUser(string filePath, User newUser)
         {
-            string row = $"{newUser.ID},{newUser.Username},{newUser.Email},{newUser.Email},{newUser.Password},{newUser.FirstName},{newUser.FavNFLTeamID},{newUser.FavNHLTeamID}, {newUser.WantsEmailUpdates}";
+            string row = $"{newUser.ID},{newUser.Username},{newUser.Email},{newUser.Password},{newUser.FirstName},{newUser.FavNFLTeamID},{newUser.FavNHLTeamID}, {newUser.WantsEmailUpdates}";
 
             File.AppendAllText(filePath, Environment.NewLine + row);
         }
